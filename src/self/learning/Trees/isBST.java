@@ -73,4 +73,15 @@ public class isBST {
         return true;
 
     }
+
+    public boolean isBST_4(TreeNode root, Integer min, Integer max)
+    {
+        if(root == null)
+            return true;
+
+        boolean leftIsBST = isBST_4(root.left, min, root.data);
+        boolean rightIsBST = isBST_4(root.right, root.data, max);
+
+        return (root.data < max && root.data > min && leftIsBST && rightIsBST);
+    }
 }

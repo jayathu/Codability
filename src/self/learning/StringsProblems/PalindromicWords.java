@@ -55,16 +55,16 @@ public class PalindromicWords {
                                 if (map.get(reversedRight) != i) {
                                     results.add(input[i]);
                                     results.add(reversedRight);
-                                    return results;
+                                    //return results;
                                 }
                             }
-                        } else if (isAPalindrome(right)) {
+                        } if (isAPalindrome(right)) {
                             String reversedLeft = new StringBuilder(left).reverse().toString();
                             if (map.containsKey(reversedLeft)) {
                                 if (map.get(reversedLeft) != i) {
                                     results.add(input[i]);
                                     results.add(reversedLeft);
-                                    return results;
+                                    //return results;
                                 }
                             }
                         }

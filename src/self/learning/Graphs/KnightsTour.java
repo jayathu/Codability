@@ -36,32 +36,41 @@ public class KnightsTour {
     static List<Cell> getNeighbors(int rows, int cols, int row, int col, int[][] distance)
     {
         List<Cell> neighbors = new ArrayList<>();
+        int[][] shift = {{-2, -1}, {-2, 1}, {-1, 2}, {1, 2}, {2, 1}, {2, -1}, {1, -2}, {-1,-2} };
 
-        if(isValid(rows, cols, row - 2, col - 1, distance))
-            neighbors.add(new Cell(row - 2, col - 1));
+        for(int[] index : shift)
+        {
+            int r = row + index[0];
+            int c = col + index[1];
 
-        if(isValid(rows, cols, row - 2, col + 1, distance))
-            neighbors.add(new Cell(row - 2, col + 1));
-
-        if(isValid(rows, cols, row - 1, col + 2, distance))
-            neighbors.add(new Cell(row - 1, col + 2));
-
-        if(isValid(rows, cols, row + 1, col + 2, distance))
-            neighbors.add(new Cell(row + 1, col + 2));
-
-        if(isValid(rows, cols, row + 2, col + 1, distance))
-            neighbors.add(new Cell(row + 2, col + 1));
-
-        if(isValid(rows, cols, row +  2, col - 1, distance))
-            neighbors.add(new Cell(row + 2, col - 1));
-
-        if(isValid(rows, cols, row + 1, col - 2, distance))
-            neighbors.add(new Cell(row + 1, col - 2));
-
-        if(isValid(rows, cols, row - 1 , col - 2, distance))
-            neighbors.add(new Cell(row - 1, col - 2));
-
-
+            if(isValid(rows, cols, r, c, distance))
+            {
+                neighbors.add(new Cell(r, c));
+            }
+        }
+//        if(isValid(rows, cols, row - 2, col - 1, distance))
+//            neighbors.add(new Cell(row - 2, col - 1));
+//
+//        if(isValid(rows, cols, row - 2, col + 1, distance))
+//            neighbors.add(new Cell(row - 2, col + 1));
+//
+//        if(isValid(rows, cols, row - 1, col + 2, distance))
+//            neighbors.add(new Cell(row - 1, col + 2));
+//
+//        if(isValid(rows, cols, row + 1, col + 2, distance))
+//            neighbors.add(new Cell(row + 1, col + 2));
+//
+//        if(isValid(rows, cols, row + 2, col + 1, distance))
+//            neighbors.add(new Cell(row + 2, col + 1));
+//
+//        if(isValid(rows, cols, row +  2, col - 1, distance))
+//            neighbors.add(new Cell(row + 2, col - 1));
+//
+//        if(isValid(rows, cols, row + 1, col - 2, distance))
+//            neighbors.add(new Cell(row + 1, col - 2));
+//
+//        if(isValid(rows, cols, row - 1 , col - 2, distance))
+//            neighbors.add(new Cell(row - 1, col - 2));
         return neighbors;
     }
 

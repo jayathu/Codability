@@ -1,6 +1,8 @@
 package self.learning.Trees;
 
 
+import java.util.HashMap;
+
 public class TreeNode {
     public int data;
     public TreeNode left;

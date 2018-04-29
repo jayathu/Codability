@@ -59,19 +59,19 @@ public class BoggleSolver {
     }
 
 
-    class Boggle
-    {
-        int row;
-        int col;
-        StringBuilder aChar;
-        TrieNode node;
-
-        public Boggle(int r, int c, char ch, TrieNode n)
-        {
-            aChar = new StringBuilder();
-            row = r; col = c; aChar.append(c); node = n;
-        }
-    }
+//    class Boggle
+//    {
+//        int row;
+//        int col;
+//        StringBuilder aChar;
+//        TrieNode node;
+//
+//        public Boggle(int r, int c, char ch, TrieNode n)
+//        {
+//            aChar = new StringBuilder();
+//            row = r; col = c; aChar.append(c); node = n;
+//        }
+//    }
 
     List<String> findWordTrie(TrieNode currentNode, char[][] board, boolean[][] visited, int i, int j, StringBuilder s, List<String> list)
     {

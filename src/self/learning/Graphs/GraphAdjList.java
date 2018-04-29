@@ -1,13 +1,10 @@
 package self.learning.Graphs;
 
-import org.omg.CORBA.INTERNAL;
-
-import javax.jws.Oneway;
 import java.util.*;
 
 class Vertex<T>
 {
-    int val;
+    Integer val;
     Map<Vertex, Integer> neighbors;
 
     Vertex(int v)
@@ -57,11 +54,29 @@ public class GraphAdjList {
 
         Vertex vertex1 = adjacencyList.get(v1);
         Vertex vertex2 = adjacencyList.get(v2);
-        Map<Vertex, Integer> neighborsOfv1 = adjacencyList.get(v1).neighbors;
-        Map<Vertex, Integer> neighborsOfv2 = adjacencyList.get(v2).neighbors;
+        Map<Vertex, Integer> neighborsOfv1 = vertex1.neighbors;
+        Map<Vertex, Integer> neighborsOfv2 = vertex2.neighbors;
 
         neighborsOfv1.put(vertex2, 1);
         neighborsOfv2.put(vertex1, 1);
+
+    }
+
+    public void printGraph()
+    {
+        for(Integer key : adjacencyList.keySet())
+        {
+
+            System.out.print(key + " - ");
+            Vertex v = adjacencyList.get(key);
+
+            Set<Map.Entry> entries = v.neighbors.entrySet();
+            for(Map.Entry<Vertex, Integer> entry : entries)
+            {
+                System.out.print(entry.getKey().val + "," + entry.getValue());
+            }
+            System.out.println();
+        }
 
     }
 
@@ -90,7 +105,8 @@ public class GraphAdjList {
 
             for(Map.Entry<Vertex, Integer> neighbour : neighbors.entrySet()){
 
-                int val = (int) neighbour.getKey().val;
+                int val;
+                val = neighbour.getKey().val;
                 Integer weight = neighbour.getValue();
 
                 if(exhaustedSet.contains(val))
@@ -168,40 +184,32 @@ public class GraphAdjList {
         }
     }
 
+    //its a DFS traversal - BFS don't make sense!
     public void printAllPaths(int v, int w) {
 
-        HashMap<Integer, Boolean> visited = new HashMap<>();
-        for (int val : adjacencyList.keySet()) {
-            visited.put(val, false);
-        }
-
+        Set<Integer> visited = new HashSet<>();
         List<Integer> path = new ArrayList<>();
         path.add(v);
-
         printAllPathsRecurse(v, w, path, visited);
 
     }
 
-    private void printAllPathsRecurse(int v, int w, List<Integer> path, HashMap<Integer, Boolean> visited) {
-
-        visited.put(v, true);
+    private void printAllPathsRecurse(int v, int w, List<Integer> path, Set<Integer> visited) {
 
         if (v == w) {
             System.out.println(path);
         }
+        visited.add(v);
+        Collection<Vertex> neighbors = adjacencyList.get(v).neighbors.keySet();
 
-        Map<Vertex, Integer> neighbours = adjacencyList.get(v).neighbors;
-
-        for (Vertex neighbor : neighbours.keySet()) {
-            if (!visited.get(neighbor.val)) {
+        for (Vertex neighbor : neighbors) {
+            if (!visited.contains(neighbor.val)) {
                 path.add(neighbor.val);
                 printAllPathsRecurse(neighbor.val, w, path, visited);
                 path.remove(neighbor.val);
             }
         }
-
-        visited.put(v, false);
-
+        visited.remove(v);
     }
 
     enum status { UNVISITED, VISITING, VISITED };
@@ -214,26 +222,107 @@ public class GraphAdjList {
             visitStatus.put(vertex.val, status.UNVISITED);
         }
 
-
         return cycleExistsRecurse(v, visitStatus);
     }
 
     private boolean cycleExistsRecurse(int v, HashMap<Integer, status> visitStatus) {
         if (visitStatus.get(v) == status.VISITING)
             return true;
-        else {
-            Map<Vertex, Integer> neighbours = adjacencyList.get(v).neighbors;
-            for (Vertex neighbour : neighbours.keySet()) {
-                {
-                    visitStatus.put(v, status.VISITING);
-                    if (visitStatus.get(neighbour) != status.VISITED) {
-                        return cycleExistsRecurse(neighbour.val, visitStatus);
-                    }
+        visitStatus.put(v, status.VISITING);
+        Map<Vertex, Integer> neighbours = adjacencyList.get(v).neighbors;
+        for (Vertex neighbour : neighbours.keySet()) {
+            {
+                if (visitStatus.get(neighbour) != status.VISITED) {
+                    return cycleExistsRecurse(neighbour.val, visitStatus);
                 }
             }
-            visitStatus.put(v, status.VISITED);
-            return false;
         }
+        visitStatus.put(v, status.VISITED);
+        return false;
+    }
+
+    public void TopologicalSort(List<Integer> listOfVertices)
+    {
+        Set<Integer> visited = new HashSet<>();
+        List<Integer> sortedList = new ArrayList<>();
+        for(Integer i : listOfVertices)
+        {
+            //sortedSet.add(i);
+            Vertex v = adjacencyList.get(i);
+            topoligicalRecurse(v, visited, sortedList);
+        }
+
+        //print sortedSet in reverse order;
+
+        Collections.reverse(sortedList);
+        for(Integer i : sortedList)
+        {
+            System.out.print(i + " ");
+        }
+    }
+
+    private void topoligicalRecurse(Vertex v,  Set<Integer> visited, List<Integer> sortedList)
+    {
+        if(visited.contains(v.val))
+            return;
+
+        Collection<Vertex> neighbors = v.neighbors.keySet();
+        if(neighbors == null || neighbors.isEmpty())
+        {
+            visited.add(v.val);
+            sortedList.add(v.val);
+            return;
+        }
+
+        for(Vertex n : neighbors)
+        {
+            topoligicalRecurse(n, visited, sortedList);
+        }
+
+        visited.add(v.val);
+        sortedList.add(v.val);
+    }
+
+
+    public void cloneGraphMain(int v)
+    {
+        HashMap<Integer, Vertex> cloneMap = new HashMap<>();
+
+        for(Vertex vertex : adjacencyList.values()) {
+            System.out.print(vertex.val + ":");
+            Collection<Vertex> neighbors = vertex.neighbors.keySet();
+            for (Vertex neighbor : neighbors) {
+                System.out.print(neighbor.val + ",");
+            }
+            System.out.println();
+        }
+
+        cloneGraph(adjacencyList.get(v), cloneMap);
+
+        for(Vertex vertex : cloneMap.values()) {
+            System.out.print(vertex.val + ":");
+            Collection<Vertex> neighbors = vertex.neighbors.keySet();
+            for (Vertex neighbor : neighbors) {
+                System.out.print(neighbor.val + ",");
+            }
+            System.out.println();
+        }
+    }
+    private Vertex cloneGraph(Vertex v, HashMap<Integer, Vertex> cloneMap)
+    {
+        if(cloneMap.containsValue(v))
+            return v;
+
+        Vertex clone = new Vertex(v.val);
+        cloneMap.put(v.val, clone);
+        Collection<Vertex> neighbors = adjacencyList.get(v.val).neighbors.keySet();
+        for(Vertex n : neighbors)
+        {
+            clone.neighbors.put(cloneGraph(n, cloneMap), 1);
+        }
+
+
+        return clone;
     }
 
 
@@ -289,34 +378,28 @@ public class GraphAdjList {
 
     public void bfs(int v) {
 
-        HashMap<Integer, Boolean> visited = new HashMap<>();
-        for (Vertex vertex : adjacencyList.values()) {
-            visited.put(vertex.val, false);
-        }
-
+        Set<Integer> visited = new HashSet<>();
         bfs(v, visited);
 
     }
 
-    private void bfs(int v, HashMap<Integer, Boolean> visited) {
+    private void bfs(int v, Set<Integer> visited) {
         Queue<Integer> q = new ArrayDeque();
 
         q.add(v);
 
         while (!q.isEmpty()) {
             int vertex = q.remove();
-            if (!visited.get(vertex)) {
-                System.out.print(vertex + " ");
-                visited.put(vertex, true);
-            }
+            if(visited.contains(vertex))
+                continue;
+
+            System.out.print(vertex + " ");
+            visited.add(vertex);
 
             Map<Vertex, Integer> neighbours = adjacencyList.get(vertex).neighbors;
             for (Vertex neighbour : neighbours.keySet()) {
-                {
-                    if (!visited.get(neighbour.val))
+                    if (!visited.contains(neighbour.val))
                         q.add(neighbour.val);
-                }
-
             }
         }
     }

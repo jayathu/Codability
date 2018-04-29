@@ -2,6 +2,7 @@ package self.learning.Trees;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class MergeTrees {
 
@@ -16,6 +17,7 @@ public class MergeTrees {
         p1.print();
         p2.print();
 
+        prev = null;
         p1 = degenerate(p1,null);
         //p1.print();
 
@@ -46,6 +48,38 @@ public class MergeTrees {
         head = degenerate(root.right, head);
         return head;
     }
+
+//    TreeNode degenerateWithStack(TreeNode root)
+//    {
+//        Stack<TreeNode> stack = new Stack<>();
+//        TreeNode head = null;
+//        TreeNode curr = null;
+//        while(root != null) {
+//            stack.push(root);
+//            root = root.left;
+//        }
+//
+//        while(!stack.isEmpty())
+//        {
+//            TreeNode n = stack.pop();
+//            if(head == null)
+//            {
+//                head = n;
+//            }
+//            else{
+//
+//            }
+//            if(n.right != null)
+//            {
+//                stack.push(n.right);
+//            }
+//
+//            while(n.left != null)
+//            {
+//
+//            }
+//        }
+//    }
 
     void PrintTree()
     {

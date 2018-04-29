@@ -1,7 +1,5 @@
 package self.learning.Graphs;
 
-import org.w3c.dom.ls.LSException;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,19 +46,28 @@ public class IslandProblem {
 
     static List<Cell> getNeighbors(int[][] grid, int row, int col, boolean[][] visited)
     {
+        int[][] shift = {{0,1}, {1,0}, {-1,0}, {0,-1}};
         List<Cell> cells = new ArrayList<>();
 
-        if(isValidCell(grid, row - 1, col ))
-            cells.add(new Cell(row - 1, col));
+        for(int[] index : shift)
+        {
+            int r = row + index[0];
+            int c = col + index[1];
+            if(isValidCell(grid, r,c))
+                cells.add(new Cell(r, c));
+        }
 
-        if(isValidCell(grid, row + 1, col ))
-            cells.add(new Cell(row + 1, col));
-
-        if(isValidCell(grid, row, col - 1 ))
-            cells.add(new Cell(row, col - 1));
-
-        if(isValidCell(grid, row, col + 1 ))
-            cells.add(new Cell(row, col + 1));
+//        if(isValidCell(grid, row - 1, col ))
+//            cells.add(new Cell(row - 1, col));
+//
+//        if(isValidCell(grid, row + 1, col ))
+//            cells.add(new Cell(row + 1, col));
+//
+//        if(isValidCell(grid, row, col - 1 ))
+//            cells.add(new Cell(row, col - 1));
+//
+//        if(isValidCell(grid, row, col + 1 ))
+//            cells.add(new Cell(row, col + 1));
 
         return cells;
     }

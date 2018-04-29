@@ -71,29 +71,20 @@ public class NearestGuard {
 
         for(int i = 0; i < output.length; i++)
         {
-            for(int j = 0; j < output[0].length; j++)
-            {
-                int index = (i + 1) * (j + 1) - 1;
+            for(int j = 0; j < output[0].length; j++) {
+                int index = i * output[0].length + j;
+                //THIS IS COMPLETELY INCORRECT: int index = (i + 1) * (j + 1) - 1;
+                //System.out.print(index + " ");
                 res[index] = output[i][j];
 
-                if(res[index] >= 0){
-                //if(output[i][j] >= 0) {
-                    //System.out.print(" " + output[i][j] + " ");
+                if (res[index] >= 0) {
                     System.out.print(" " + res[index] + " ");
-                }
-                else
-                {
-                    //System.out.print(output[i][j] + " ");
+                } else {
                     System.out.print(res[index] + " ");
                 }
-
-
             }
-
             System.out.println();
         }
-
-
     }
 
     static List<Cell> getNeighbors(char[][] grid, int row, int col, int[][] output)

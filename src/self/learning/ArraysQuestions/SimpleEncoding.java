@@ -4,6 +4,9 @@ public class SimpleEncoding {
 
     public static void encode(String s)
     {
+
+        StringBuilder sb = new StringBuilder();
+
         char[] arr = s.toCharArray();
         char[] res = new char[arr.length];
         int index = 0;

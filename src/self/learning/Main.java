@@ -1,19 +1,6 @@
 package self.learning;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-import self.learning.ArraysQuestions.*;
 
-import com.sun.scenario.effect.Merge;
-import self.learning.ArraysQuestions.PascalTriangle;
-import self.learning.DynamicProgramming.*;
-import self.learning.Graphs.GraphSolution;
-import self.learning.Pramp.SalesPath;
-import self.learning.StringsProblems.*;
-import self.learning.Trees.TreeNode;
-import self.learning.Trees.*;
-import sun.reflect.generics.tree.Tree;
-
-import java.net.SocketTimeoutException;
-import java.util.*;
+import self.learning.Recursion.CountBST;
 
 public class Main {
 
@@ -196,6 +183,25 @@ public class Main {
 
         ///////////MERGE 2 BSTs ///////////////////////////
 //        TreeNode p1 = TreeNode.createMinimalBST(new int[]{5,13,16,18});
+//
+//        p1 = new TreeNode(5);
+//        p1.left = new TreeNode(3);
+//        p1.left.left = new TreeNode(2);
+//        p1.left.right = new TreeNode(8);
+//        p1.right = new TreeNode(10);
+//        p1.right.left = new TreeNode(7);
+//        p1.right.right = new TreeNode(12);
+//
+//        p1.print();
+
+        //isBST obj = new isBST();
+        //boolean tf = obj.isBST_4(p1, Integer.MIN_VALUE, Integer.MAX_VALUE);
+        //System.out.print(tf);
+
+        //TreeTraversal.PostOrderTraversalWithStack(p1);
+
+        //TreeTraversal.PrintAllPaths(p1);
+
 //        TreeNode p2 = TreeNode.createMinimalBST(new int[]{1,3,15, 25});
 //
 //        //TreeTraversal.PostOrderIterative(root);
@@ -215,15 +221,15 @@ public class Main {
 //        lruCache.get(5);
 
         ////////////////// PRINT ALL PATHS OF A TREE ////////////////////
-        //TreeNode p = TreeNode.createMinimalBST(new int[]{1,2,3,4,5,6,7});
-        //p.print();
+//        TreeNode p = TreeNode.createMinimalBST(new int[]{1,2,3,4,5,6,7});
+//        p.print();
         //TreeTraversal.PrintAllPaths(p);
         //TreeTraversal.PrintTree2List(p);
 
 //        TreeNode p = new TreeNode(5);
-//        p.left = new TreeNode(4);
-//        p.left.left = new TreeNode(4);
-//        p.left.right = new TreeNode(4);
+//        p.left = new TreeNode(5);
+//        p.left.left = new TreeNode(5);
+//        //p.left.right = new TreeNode(4);
 //        p.right = new TreeNode(5);
 //        p.right.right = new TreeNode(5);
 //        p.print();
@@ -253,12 +259,12 @@ public class Main {
 //        p.left.left.right = new TreeNode(7);
 //
 //        p.print();
-
-       // UpsideDownTree.flip(p);
-        //UpsideDownTree.head.print();
-
-        //p = UpsideDownTree.flip(p);
-        //p.print();
+//
+//        //UpsideDownTree.flip(p);
+//        //UpsideDownTree.head.print();
+//
+//        p = UpsideDownTree.flip2(p);
+//        p.print();
 
         //StringSolution solution = new StringSolution();
         //solution.reverse("jayashree");
@@ -336,7 +342,7 @@ public class Main {
 //        String res = LongestSubWithUnique.longestSub_improved("aaaaaaaabbbbbbb");
 //        System.out.println(res);
 
-//        List<String> results = PalindromicWords.Find(new String[]{"aba", "", "cat"});
+//        List<String> results = PalindromicWords.Find(new String[]{"abacdc", "aba", "cdc"});
 //        for(String s: results)
 //        {
 //            System.out.print(s + " ");
@@ -349,22 +355,23 @@ public class Main {
 //        TreeNode p = new TreeNode(1);
 //        p.left = new TreeNode(2);
 //        p.right = new TreeNode(3);
+//        p.right.right = new TreeNode(9);
 //        p.left.left = new TreeNode(4);
 //        p.left.right = new TreeNode(5);
 //        p.left.left.left = new TreeNode(6);
 //        p.left.left.right = new TreeNode(7);
-
-        //p.print();
+//
+//        p.print();
         //TreeNode cRoot = Clone.clone(p);
         //cRoot.print();
         //cRoot = Clone.flip(cRoot);
         //cRoot.print();
 
-        //TreeLinkNode node = new TreeLinkNode(p);
-        //node.print();
-
-        //node.linkSiblings();
-        //TreeLinkNode.printSiblings(node);
+//        TreeLinkNode node = new TreeLinkNode(p);
+//        node.print();
+//
+//        node.linkSiblings();
+//        TreeLinkNode.printSiblings(node);
 
 //        TreeNode p = new TreeNode(15);
 //        p.left = new TreeNode(10);
@@ -385,10 +392,30 @@ public class Main {
         //System.out.println(KthSmallest.findSecondLargest(p));
         //System.out.println(KthSmallest.get(p, 3).data);
 //
-//        int n = LargestBST.find(p);
-//        System.out.print(n);
+        //int n = LargestBST.find(p);
+        //System.out.print(n);
 
         //BuildTree.WithPreAndInOrder();
+        //TreeNode p = BuildTree.WithPostAndInOrder();
+        //p.print();
+        //StringInterconversion stringInterconversion = new StringInterconversion();
+       // stringInterconversion.stringToInt("123");
+        //stringInterconversion.intToString(234);
+
+        //GenerateMnemonics mnemonics = new GenerateMnemonics();
+        //mnemonics.Generate("12");
+
+        //SuffixTree suffixTree = new SuffixTree();
+        //suffixTree.BuildSuffixTree("Mississippi");
+
+        //suffixTree.BuildSuffixTree("ayayahaha");
+
+        //String res = BaseConversion.convertBase("615", 7, 13);
+        //System.out.println(res);
+
+        //LookAndSay.GenerateTill(10);
+
+        //ValidIPAddress.generate("19216911");
 
 //        TreeIterators treeIterators = new TreeIterators(p);
 //        while(treeIterators.hasNext())
@@ -416,9 +443,9 @@ public class Main {
 
         ////////////////// * * * D Y N A M I C * P R O G R A M M I N G * * * /////////////////////////
 
-        //int[] coins = new int[]{1,3,4,5};
-        //int nCoins = CoinChange.getMinimumChange_DP(coins, 7);
-        //System.out.println(nCoins);
+//        int[] coins = new int[]{1,3,4,5};
+//        int nCoins = CoinChange.getMinimumChange_DP(coins, 7);
+//        System.out.println(nCoins);
 
         //int[] coins = new int[]{3,9,1,2};
         //System.out.println(CoinPlay.compute_DP(coins));
@@ -446,8 +473,59 @@ public class Main {
 
         //SalesPath.MakeSalesPathAndPrintCheapestCost();
 
-        GraphSolution.BuildGraph();
+        //GraphSolution.BuildGraph();
 
+        //Skyline.BuildAndRunSkyline();
+
+        //LinkedListSolution llSolution = new LinkedListSolution();
+        //llSolution.BuidAndRun();
+
+//        int[] arr = new int[]{5,2,8,7,9,11,4,3};
+//        TreeNode p = TreeReconstruction.BuildMaxTree(arr);
+//        p.print();
+
+
+//        int[] arr = new int[]{1,2,3,4,5,6,7,8,9,10};
+//        TreeNode p = TreeNode.createMinimalBST(arr);
+//        p.print();
+//        SuccessorinBST successorinBST = new SuccessorinBST(p);
+        //TreeNode node = successorinBST.getNode(4);
+
+        //TreeNode successor = successorinBST.FindSuccessor(p, node);
+        //System.out.println("Successor of " + node.data + " is " + successor.data);
+
+        //FindKLargestinBST.find(p, 5);
+
+//        TreeNode p1 = successorinBST.getNode(1);
+//        TreeNode p2 = successorinBST.getNode(4);
+//        TreeNode lca = LCAInBST.find(p,p1, p2);
+//        System.out.print("LCA = " + lca.data);
+
+//        BinarySearchCount bsc = new BinarySearchCount();
+//        bsc.BuildAndRun();
+
+        //SumZero sumZero = new SumZero();
+        //sumZero.print(new int[]{5,1,2,-3,7,-3,-4});
+
+//        MinInSortedArray minInSortedArray = new MinInSortedArray();
+//        int index = minInSortedArray.find(new int[]{5,6,7,2,3,4}, 4);
+//        System.out.print(index);
+
+//        NextPalindrome2 nextPalindrome2 = new NextPalindrome2();
+//        long nextPalindrome = nextPalindrome2.findNextPalindrome(351184);
+//        System.out.print(nextPalindrome);
+
+        //AlternatingPositiveNegative alternatingPositiveNegative = new AlternatingPositiveNegative();
+        //alternatingPositiveNegative.rearrange(new int[]{1,2,3,4,5,-1,-2,-3});
+
+        int num = 7;
+        //String s7 = Integer.toBinaryString(num);
+
+        System.out.println(num + ":" + Integer.toBinaryString(num));
+
+        num = num | (1 << 8);
+
+        System.out.println(num + ":" + Integer.toBinaryString(num));
 
 
     }

@@ -9,7 +9,7 @@ public class LongestSubWithUnique {
 
     public static String longestSub_improved(String strText)
     {
-        int left = 0, right = 1;
+        int left = 0, right;
         HashMap<Character, Integer> freqMap = new HashMap<>();
         String res = "";
         boolean flag = false;

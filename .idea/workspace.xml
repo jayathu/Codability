@@ -2,97 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084eb5f7-772f-4eb4-a0e7-9b0402965bb3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/AmazonQuestion1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/DivideAB.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/DutchFlagPartition.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/IsPrime.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/NextPalindromicNum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/PascalTriangle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Products.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/RotatedPalindrome.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SimpleEncoding.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/CountBST.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/CountPaths.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinPlay.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CountWays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/HouseRobbery.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/KnightsTour.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ExtractInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/FindIntersection.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/GenAllParanthesis.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/GenExpressions.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/AlienDictionary.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/CycleDetection.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/Graph.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjMatrix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/GraphSolution.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/IslandProblem.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/KnightsTour.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/NearestGuard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/SnakesAndLadder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/TransposeGraph.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/WordLadder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/GroupNumbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Heap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/IsPalinfrome.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/LRUCache.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/LinkedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/LongestValidParanthesis.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/MergeIntervals.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/MergeKSortedArrays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/MinStack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/NQueen.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/NutsAndBolts.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/PalindromeDecomposition.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Permutations.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Pramp/SalesPath.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/RankOfK.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ReverseKNodes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/SlidingWindowMaximum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Solutions.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/SortedMerge.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Sorting.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StackQueue.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/BoggleSolver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/LongestSubWithUnique.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/MinWindowSubstring.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/Neuronyms.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/PalindromicWords.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/ReverseString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/SinusoidalString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/SpiralMatrix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/StringSolution.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/Trie.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/TrieNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/SubsetProblem.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Sum3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/SwapKthNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/TOH.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/TrappingRainWater.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/TreeDiameter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/BTreePrinter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/BalancedBST.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/BuildTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/Clone.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/HeightOfKAry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/KthSmallest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/LargestBST.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/MergeTrees.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/TestMergeTrees.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/TreeIterators.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/TreeLinkNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/TreeNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/TreeTraversal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/UpsideDownTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/isBST.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/WildCard.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/AlternatingPositiveNegative.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MinInSortedArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/NextPalindrome2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/RLE.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Skyline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SumZero.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/LongestPathDAG.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/Practice1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/RainfallChallenge.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/CloneList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedListSolution.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/BaseConversion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/GenerateMnemonics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/LookAndSay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/StringInterconversion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/SuffixTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/ValidIPAddress.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/FindKLargestinBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/LCAInBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/SuccessorinBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Trees/TreeReconstruction.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/ArraysQuestions/SimpleEncoding.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/ArraysQuestions/SimpleEncoding.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/DoubleLinkedList.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/DoubleLinkedList.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/CostNode.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/CostNode.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/GraphAdjList$status.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/GraphAdjList$status.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/GraphAdjList.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/GraphAdjList.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/GraphSolution.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/GraphSolution.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/IslandProblem$Cell.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/IslandProblem$Cell.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/IslandProblem.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/IslandProblem.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/KnightsTour$Cell.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/KnightsTour$Cell.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/KnightsTour.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/KnightsTour.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/NearestGuard.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/NearestGuard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/Vertex.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Graphs/Vertex.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Intervals.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Intervals.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LRUCache.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/LRUCache.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/MergeIntervals.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/MergeIntervals.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/StringsProblems/BoggleSolver$Boggle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/StringsProblems/BoggleSolver.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/StringsProblems/BoggleSolver.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/StringsProblems/LongestSubWithUnique.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/StringsProblems/LongestSubWithUnique.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/StringsProblems/PalindromicWords.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/StringsProblems/PalindromicWords.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/BuildTree.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/BuildTree.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/LargestBST.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/LargestBST.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/MergeTrees.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/MergeTrees.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/TreeNode.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/TreeTraversal.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/TreeTraversal.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/UpsideDownTree.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/UpsideDownTree.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/isBST.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Trees/isBST.class" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/AmazonQuestion1.java" afterPath="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SimpleEncoding.java" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SimpleEncoding.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/CountBST.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/CountBST.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/CountPaths.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/ExtractInfo.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/FindIntersection.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/GenAllParanthesis.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/GenAllParanthesis.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/GenExpressions.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Graphs/GraphSolution.java" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/GraphSolution.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Graphs/IslandProblem.java" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/IslandProblem.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Graphs/KnightsTour.java" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/KnightsTour.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Graphs/NearestGuard.java" afterPath="$PROJECT_DIR$/src/self/learning/Graphs/NearestGuard.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/GroupNumbers.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/GroupNumbers.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Heap.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/Heap.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/IsPalinfrome.java" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/LRUCache.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LRUCache.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/LinkedList.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/LongestValidParanthesis.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LongestValidParanthesis.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Main.java" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/MergeIntervals.java" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MergeIntervals.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/MergeKSortedArrays.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/MergeKSortedArrays.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/MinStack.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MinStack.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/NQueen.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/NutsAndBolts.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/NutsAndBolts.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/PalindromeDecomposition.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/PalindromeDecomposition.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Permutations.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/Permutations.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/RankOfK.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/ReverseKNodes.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseKNodes.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/SlidingWindowMaximum.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Solutions.java" afterPath="$PROJECT_DIR$/src/self/learning/Solutions.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/SortedMerge.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/SortedMerge.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/StackQueue.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/StackQueue.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/StringsProblems/BoggleSolver.java" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/BoggleSolver.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/StringsProblems/LongestSubWithUnique.java" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/LongestSubWithUnique.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/StringsProblems/PalindromicWords.java" afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/PalindromicWords.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/SubsetProblem.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Sum3.java" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Sum3.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/SwapKthNode.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SwapKthNode.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/TOH.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/TOH.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/TrappingRainWater.java" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/TrappingRainWater.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/TreeDiameter.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/TreeDiameter.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Trees/BuildTree.java" afterPath="$PROJECT_DIR$/src/self/learning/Trees/BuildTree.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Trees/LargestBST.java" afterPath="$PROJECT_DIR$/src/self/learning/Trees/LargestBST.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Trees/MergeTrees.java" afterPath="$PROJECT_DIR$/src/self/learning/Trees/MergeTrees.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Trees/TreeNode.java" afterPath="$PROJECT_DIR$/src/self/learning/Trees/TreeNode.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Trees/TreeTraversal.java" afterPath="$PROJECT_DIR$/src/self/learning/Trees/TreeTraversal.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Trees/UpsideDownTree.java" afterPath="$PROJECT_DIR$/src/self/learning/Trees/UpsideDownTree.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Trees/isBST.java" afterPath="$PROJECT_DIR$/src/self/learning/Trees/isBST.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/WildCard.java" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/WildCard.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,27 +114,141 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SalesPath.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/SalesPath.java">
+      <file leaf-file-name="SortedMerge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/SortedMerge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Codability.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codability.iml">
+      <file leaf-file-name="SlidingWindowMaximum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sorting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsPalinfrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtractInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/GroupNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindIntersection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AmazonQuestion1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeIntervals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MergeIntervals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getMini</find>
+      <find>printall</find>
+      <find>cycle</find>
+      <find>neighbors.keySet()</find>
+      <find>counti</find>
+      <find>Nea</find>
+      <find>PrintPaths</find>
+      <find>BST</find>
+      <find>Tree2</find>
+      <find>univa</find>
+      <find>Upside</find>
+      <find>TreeLinkNode</find>
+      <find>linkSiblings</find>
+      <find>larges</find>
+      <find>minima</find>
+      <find>PrintUnivalCount</find>
+      <find>BuildTree</find>
+      <find>longest(</find>
+      <find>PalindromicWords</find>
+      <find>wordbre</find>
+      <find>topoligicalRecurse</find>
+      <find>enum</find>
+      <find>PrintOptimal</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,15 +261,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/self/learning/Graphs/Practice1.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Graphs/RainfallChallenge.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Graphs/IslandProblem.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Graphs/GraphSolution.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Graphs/NearestGuard.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Graphs/KnightsTour.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/isBST.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/MergeTrees.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/TreeTraversal.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/UpsideDownTree.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/TreeLinkNode.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/LargestBST.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/SuccessorinBST.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/FindKLargestinBST.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/LCAInBST.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/TreeReconstruction.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Trees/BuildTree.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/LongestSubWithUnique.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/StringInterconversion.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/GenerateMnemonics.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/SuffixTree.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/BoggleSolver.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/BaseConversion.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/LookAndSay.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/ValidIPAddress.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/PalindromicWords.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/MergeIntervals.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SumZero.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MinInSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SimpleEncoding.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/RLE.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/NextPalindrome2.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/AlternatingPositiveNegative.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Recursion/PalindromeDecomposition.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedListSolution.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/SortedMerge.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MergeIntervals.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/GroupNumbers.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/Heap.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="635" />
+    <option name="x" value="94" />
     <option name="y" value="23" />
-    <option name="width" value="1232" />
-    <option name="height" value="958" />
+    <option name="width" value="1562" />
+    <option name="height" value="953" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -162,7 +339,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,13 +355,23 @@
               <item name="Codability" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codability" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codability" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="RealInterviewQuestions" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -256,64 +446,483 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="635" y="23" width="1232" height="958" extended-state="0" />
+    <frame x="94" y="23" width="1562" height="953" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18728717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13828425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19863792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/self/learning/Graphs/LongestPathDAG.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/Skyline.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/self/learning/Trees/FindKLargestinBST.java</url>
+          <line>19</line>
+          <properties class="self.learning.Trees.FindKLargestinBST" method="findHelper">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/SumZero.java</url>
+          <line>5</line>
+          <properties class="self.learning.ArraysQuestions.SumZero" method="print">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="68" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/PalindromicWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Graphs/AlienDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/GenerateMnemonics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/ValidIPAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="240" column="21" lean-forward="true" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/PascalTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/SumZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MinInSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/SimpleEncoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/NextPalindromicNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/NextPalindrome2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/AlternatingPositiveNegative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/RLE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="29" lean-forward="false" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="e#1665#1666#0" expanded="false" />
+            <element signature="e#1711#1712#0" expanded="false" />
+            <element signature="e#1757#1758#0" expanded="false" />
+            <element signature="e#1794#1795#0" expanded="false" />
+            <element signature="e#1837#1838#0" expanded="false" />
+            <element signature="e#1880#1881#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="523" column="68" lean-forward="false" selection-start-line="523" selection-start-column="68" selection-end-line="523" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#18309#18310#0" expanded="false" />
+            <element signature="e#18346#18347#0" expanded="false" />
+            <element signature="e#18391#18392#0" expanded="false" />
+            <element signature="e#18430#18431#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/CountBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codability.iml">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/SalesPath.java">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenAllParanthesis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/TreeDiameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/TOH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/WildCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/PalindromeDecomposition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseKNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SwapKthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/StackQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LongestValidParanthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/CloneList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedListSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/MergeKSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NutsAndBolts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/Sum3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/TrappingRainWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MergeIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/SortedMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/GroupNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
