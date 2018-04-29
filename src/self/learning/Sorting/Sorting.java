@@ -2,27 +2,29 @@ package self.learning.Sorting;
 
 public class Sorting {
 
-    static int[] QuickSort(int[] arr)
+    public void BuildAndRun (int[] arr)
     {
-
-        return QuickSortRecursive(arr, 0, arr.length-1 );
-
+        int[] result = QuickSortRecursive(arr, 0, arr.length-1 );
+        for(int n : result)
+        {
+            System.out.print(n + " ");
+        }
     }
 
-    private static int[] QuickSortRecursive(int[] arr, int left, int right)
+    private int[] QuickSortRecursive(int[] arr, int left, int right)
     {
         if(left < right)
         {
-            int pivot = partition(arr, left, right);
+            //int pivot = partition(arr, left, right);
+            int pivot = hoaresPartition(arr, left, right);
             QuickSortRecursive(arr, left, pivot- 1);
             QuickSortRecursive(arr, pivot, right);
 
         }
-
         return arr;
     }
 
-    private static int partition(int[] arr, int left, int right)
+    private int partition(int[] arr, int left, int right)
     {
         int tmp;
         int pivot = arr[(left + right) / 2];
@@ -40,29 +42,7 @@ public class Sorting {
         return left;
     }
 
-    static void QuickSort_2(int[] arr)
-    {
-        int[] sortedArray = QuickSortRecursive_2(arr, 0, arr.length - 1);
-
-        for(int i: arr)
-        {
-            System.out.print(i + " ");
-        }
-
-    }
-    private static int[] QuickSortRecursive_2(int[] arr, int start, int end)
-    {
-        if(start < end)
-        {
-            int pivot = partition_2(arr, start, end);
-            QuickSortRecursive_2(arr, start, pivot - 1);
-            QuickSortRecursive_2(arr, pivot + 1, end);
-        }
-
-        return arr;
-
-    }
-    private static int partition_2(int[] arr, int start, int end)
+    private int partition_2(int[] arr, int start, int end)
     {
         int pivotIndex = start;
         for(int i = start; i < end; i++)
@@ -74,12 +54,37 @@ public class Sorting {
                 arr[i] = temp;
                 pivotIndex++;
             }
-
         }
 
         int temp = arr[pivotIndex];
         arr[pivotIndex] = arr[end];
         arr[end] = temp;
         return pivotIndex;
+    }
+    
+    private int hoaresPartition(int[] arr, int start, int end)
+    {
+        int pivot = arr[start];
+        int left = start + 1;
+        int right = end;
+
+        while(left < right)
+        {
+            while(arr[left] < pivot && left < end) left ++;
+
+            while(arr[right] > pivot && right > start) right --;
+
+            if(left < right) {
+                int temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+            }
+        }
+
+        int temp = arr[start];
+        arr[start] = arr[right];
+        arr[right] = temp;
+
+        return right;
     }
 }

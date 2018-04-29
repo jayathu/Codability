@@ -1,6 +1,8 @@
 package self.learning;
 
 import self.learning.Recursion.CountBST;
+import self.learning.Sorting.Solution;
+import self.learning.Sorting.Sorting;
 
 public class Main {
 
@@ -19,14 +21,8 @@ public class Main {
         //System.out.print(CountPaths.NumberOfPaths(grid));
 
         //int[] arr = {2,8,1,9,31,18,4,5,10};
-        //1,2,4,5,8,9,10,18,31
-
-        //Sorting.QuickSort_2(arr);
-        //arr = Sorting.QuickSort(arr);
-//        for(int i : arr)
-//        {
-//            System.out.print(i + " ");
-//        }
+        Solution solution = new Solution();
+        solution.BuildAndRun();
 
        // System.out.println(RankOfK.find(arr, 3));
 
@@ -518,14 +514,14 @@ public class Main {
         //AlternatingPositiveNegative alternatingPositiveNegative = new AlternatingPositiveNegative();
         //alternatingPositiveNegative.rearrange(new int[]{1,2,3,4,5,-1,-2,-3});
 
-        int num = 7;
+        //int num = 7;
         //String s7 = Integer.toBinaryString(num);
 
-        System.out.println(num + ":" + Integer.toBinaryString(num));
-
-        num = num | (1 << 8);
-
-        System.out.println(num + ":" + Integer.toBinaryString(num));
+//        System.out.println(num + ":" + Integer.toBinaryString(num));
+//
+//        num = num | (1 << 8);
+//
+//        System.out.println(num + ":" + Integer.toBinaryString(num));
 
 
     }
@@ -557,24 +553,4 @@ public class Main {
         return String.valueOf(arr);
     }
 
-    static void PrintNumOfBST(int n)
-    {
-        for(int i = 1; i <= 35; i++)
-        {
-            long count = CountBST.NumOfBST(i);
-
-            System.out.println("Number of BST = " + count);
-
-        }
-    }
-
-    static void Print(String str)
-    {
-        System.out.print(str);
-    }
-
-    static void PrintLine(String str)
-    {
-        System.out.println(str);
-    }
 }
