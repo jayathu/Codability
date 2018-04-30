@@ -5,6 +5,6 @@ public class Solution {
     public void BuildAndRun()
     {
         Sorting sorting = new Sorting();
-        sorting.BuildAndRun(new int[]{4,1,2,21,3,6,5,7});
+        sorting.BuildAndRun(new int[]{9,1,3,4,8,2,5});
     }
 }

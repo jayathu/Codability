@@ -25,9 +25,21 @@ class LinkedListNode
 
 public class LinkedList {
 
-    LinkedListNode head;
+    public LinkedListNode head;
 
-    LinkedList() {}
+    public LinkedList() {}
+
+    public LinkedList(int[] arr)
+    {
+        head = new LinkedListNode(arr[0]);
+
+        LinkedListNode node = head;
+        for(int i = 1; i < arr.length; i++)
+        {
+            node.next = new LinkedListNode(arr[i]);
+            node = node.next;
+        }
+    }
 
     LinkedList(LinkedListNode node)
     {

@@ -1,4 +1,5 @@
 package self.learning.Sorting;
+import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class MergeKSortedArrays {
@@ -36,6 +37,7 @@ public class MergeKSortedArrays {
 
     static void Print(int[] arr)
     {
+//        PriorityQueue<Node> pq = new PriorityQueue<>(Collections.reverseOrder());
         PriorityQueue<Node> queue = new PriorityQueue<>();
         for(int i = 0; i< arr.length; i++)
         {

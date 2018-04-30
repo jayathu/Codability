@@ -1,53 +1,57 @@
 package self.learning.Sorting;
 
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class ExtractInfo {
 
-    static void PrintPairs(String[] input)
+    public void process(String[] arr)
     {
-        HashMap<String, Node> hashMap = new HashMap<>();
+        Map<String, Node> map = new HashMap<>();
 
-        for(int i = 0; i < input.length; i++)
+        for(String s : arr)
         {
-            String key = input[i].substring(0, 4);
-            String value = input[i].substring(5,input[i].length());
+            int index = s.indexOf(' ');
+            String key = s.substring(0, index);
 
-            if(hashMap.containsKey(key))
+            index++;
+
+            while(index < s.length())
             {
-                Node node = hashMap.get(key);
-                if(value.compareTo(node.value) > 0)
+                int left = index;
+                while(index < s.length() && s.charAt(index) != ' ') index++;
+
+                String str = s.substring(left, index);
+
+                if(!map.containsKey(key))
                 {
-                    node.value = value;
+                    map.put(key, new Node(str, 1));
                 }
-                hashMap.get(key).count += 1;
-            }
-            else{
-                hashMap.put(key, new Node(1, value));
+                else{
+                    Node n = map.get(key);
+                    n.val = n.val.compareTo(str) > 0 ? n.val : str;
+                    n.count++;
+                }
+
+                index ++;
             }
         }
 
-        String[] output = new String[hashMap.size()];
-        int k = 0;
-        for (Map.Entry<String, Node> pair:hashMap.entrySet())
+        for(Map.Entry<String, Node> entry : map.entrySet())
         {
-            output[k] = pair.getKey() + ": " + pair.getValue().count + pair.getValue().value;
-            System.out.println(output[k]);
+            System.out.println(entry.getKey() + ":" + entry.getValue().count + "," + entry.getValue().val);
         }
-
     }
 
-    static class Node
+    class Node
     {
+        String val;
         int count;
-        String value;
 
-        Node(int c, String v)
+        Node(String s, int c)
         {
+            val = s;
             count = c;
-            value = v;
         }
     }
 }

@@ -1,8 +1,11 @@
 package self.learning;
 
+import self.learning.LinkedListStacksQueues.LinkedList;
+import self.learning.LinkedListStacksQueues.ReverseInGroupsOfK;
 import self.learning.Recursion.CountBST;
-import self.learning.Sorting.Solution;
-import self.learning.Sorting.Sorting;
+import self.learning.Sandbox.Dutch;
+import self.learning.Sandbox.NutsAndBoltsSandbox;
+import self.learning.Sorting.*;
 
 public class Main {
 
@@ -21,8 +24,8 @@ public class Main {
         //System.out.print(CountPaths.NumberOfPaths(grid));
 
         //int[] arr = {2,8,1,9,31,18,4,5,10};
-        Solution solution = new Solution();
-        solution.BuildAndRun();
+//        Solution solution = new Solution();
+//        solution.BuildAndRun();
 
        // System.out.println(RankOfK.find(arr, 3));
 
@@ -84,9 +87,15 @@ public class Main {
 
         //Sum3.Print3Sum_Optimal(new int[]{10,3,-4, 10, 3, -4, 1,-6,9});
 
-        //String[] input = new String[]{"Key1 abcd", "Key2 zzz", "Key1 hello", "Key3 world"};
-        //ExtractInfo.PrintPairs(input);
+//        String[] input = new String[]{"jay shree durga", "suresh shambhavi", "suresh sugavanam", "jay nagarajan", "suresh vasantha", "shree saroja"};
+//        ExtractInfo extractInfo = new ExtractInfo();
+//        extractInfo.process(input);
 
+        //NearestNeighbors nearestNeighbors = new NearestNeighbors();
+        //nearestNeighbors.BuildAndRun();
+
+//        SortCharsInString sortCharsInString = new SortCharsInString();
+//        sortCharsInString.Sort("jayashree");
 
         //int len = LongestValidParanthesis.GetLongest("(())))(())()");
         //System.out.print(len);
@@ -524,6 +533,8 @@ public class Main {
 //        System.out.println(num + ":" + Integer.toBinaryString(num));
 
 
+        ReverseInGroupsOfK obj = new ReverseInGroupsOfK();
+        obj.BuildAndRun();
     }
 
     static String sortCharacters(String inString) {

@@ -15,34 +15,17 @@ public class Sorting {
     {
         if(left < right)
         {
-            //int pivot = partition(arr, left, right);
-            int pivot = hoaresPartition(arr, left, right);
+            int pivot = lomutosPartition(arr, left, right);
+            //int pivot = hoaresPartition(arr, left, right);
             QuickSortRecursive(arr, left, pivot- 1);
-            QuickSortRecursive(arr, pivot, right);
+            QuickSortRecursive(arr, pivot + 1, right);
 
         }
         return arr;
     }
 
-    private int partition(int[] arr, int left, int right)
-    {
-        int tmp;
-        int pivot = arr[(left + right) / 2];
-        while (left <= right) {
-            while (arr[left] < pivot) left++;
-            while (arr[right] > pivot) right--;
-            if (left <= right) {
-                tmp = arr[left];
-                arr[left] = arr[right];
-                arr[right] = tmp;
-                left++;
-                right--;
-            }
-        };
-        return left;
-    }
 
-    private int partition_2(int[] arr, int start, int end)
+    private int lomutosPartition(int[] arr, int start, int end)
     {
         int pivotIndex = start;
         for(int i = start; i < end; i++)
@@ -61,7 +44,7 @@ public class Sorting {
         arr[end] = temp;
         return pivotIndex;
     }
-    
+
     private int hoaresPartition(int[] arr, int start, int end)
     {
         int pivot = arr[start];

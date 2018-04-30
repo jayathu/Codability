@@ -1,4 +1,4 @@
-package self.learning.ArraysQuestions;
+package self.learning.Sorting;
 
 public class DutchFlagPartition {
 

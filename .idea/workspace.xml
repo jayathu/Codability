@@ -2,53 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084eb5f7-772f-4eb4-a0e7-9b0402965bb3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/Solution.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseInGroupsOfK.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/Dutch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/NutsAndBoltsSandbox.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/SortCharsInString.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/AmazonQuestion1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/CountBST.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/CountPaths.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/DoubleLinkedList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/ExtractInfo$Node.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/ExtractInfo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/FindIntersection.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/GenAllParanthesis.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/GenExpressions.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/GroupNumbers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Heap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Intervals.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/IsPalinfrome.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LRUCache.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedListNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedLists/CloneList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedLists/LinkedListSolution.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedLists/Node.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LongestValidParanthesis.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/ArraysQuestions/DutchFlagPartition.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedListStacksQueues/LinkedList.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedListStacksQueues/LinkedList.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/MergeIntervals.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/MergeKSortedArrays.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/MinStack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/NQueen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Node.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/NutsAndBolts.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/PalindromeDecomposition.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Permutations.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/RankOfK.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/ReverseKNodes.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/SlidingWindowMaximum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Solutions.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Solutions.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/SortedMerge.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/StackQueue$StackQueueInner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/StackQueue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/SubsetProblem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sum3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/SwapKthNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/TOH.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/TrappingRainWater.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/TreeDiameter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/WildCard.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/ExtractInfo$Node.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/ExtractInfo$Node.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/ExtractInfo.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/ExtractInfo.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/MergeKSortedArrays.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/MergeKSortedArrays.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Node.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Node.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Solution.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Solution.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Sorting.class" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Sorting.class" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/DutchFlagPartition.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/DutchFlagPartition.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" />
       <change beforePath="$PROJECT_DIR$/src/self/learning/Main.java" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/MergeKSortedArrays.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/MergeKSortedArrays.java" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/Solution.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/Solution.java" />
       <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,8 +38,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8280">
-              <caret line="554" column="0" lean-forward="false" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
+            <state relative-caret-position="444">
+              <caret line="536" column="0" lean-forward="false" selection-start-line="536" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,21 +47,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sorting.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+            <state relative-caret-position="348">
+              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Solution.java">
+      <file leaf-file-name="ReverseKNodes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseKNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseInGroupsOfK.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseInGroupsOfK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="60" column="64" lean-forward="false" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -127,6 +111,7 @@
       <find>topoligicalRecurse</find>
       <find>enum</find>
       <find>PrintOptimal</find>
+      <find>Extract</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,15 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/self/learning/Graphs/RainfallChallenge.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Graphs/IslandProblem.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Graphs/GraphSolution.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Graphs/NearestGuard.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Graphs/KnightsTour.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Trees/isBST.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Trees/MergeTrees.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Trees/TreeTraversal.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Trees/UpsideDownTree.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Trees/TreeLinkNode.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Trees/LargestBST.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Trees/TreeNode.java" />
@@ -176,29 +152,38 @@
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/NextPalindrome2.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/AlternatingPositiveNegative.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Recursion/PalindromeDecomposition.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedListSolution.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/SortedMerge.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java" />
         <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/GroupNumbers.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/Heap.java" />
         <option value="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Sorting/Solution.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/Solution.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/DutchFlag.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/DutchFlagPartition.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/DutchFlagPartitioning.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/Dutch.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/NutsAndBoltsSandbox.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/MergeKSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/SortCharsInString.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseInGroupsOfK.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="94" />
-    <option name="y" value="23" />
-    <option name="width" value="1562" />
-    <option name="height" value="953" />
+    <option name="x" value="218" />
+    <option name="y" value="33" />
+    <option name="width" value="1462" />
+    <option name="height" value="923" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -243,7 +228,15 @@
               <item name="Codability" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedListStacksQueues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codability" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedListStacksQueues" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -252,6 +245,9 @@
       <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -325,33 +321,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="23" width="1562" height="953" extended-state="0" />
+    <frame x="218" y="33" width="1462" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18728717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24206816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13828425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14774282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19863792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2773208" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10442679" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -391,60 +387,11 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="71" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinPlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Graphs/AlienDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/GenerateMnemonics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/ValidIPAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="240" column="21" lean-forward="true" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/PascalTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/SumZero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -572,31 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseKNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SwapKthNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/StackQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -614,45 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/CloneList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedListSolution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/MergeKSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NutsAndBolts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -684,24 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -723,6 +600,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -733,28 +611,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/DutchFlag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8280">
-          <caret line="554" column="0" lean-forward="false" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/DutchFlagPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/Dutch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/NutsAndBoltsSandbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/MergeKSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NutsAndBolts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SwapKthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        <state relative-caret-position="476">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#2267#2268#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/SortCharsInString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseKNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/CloneList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="536" column="0" lean-forward="false" selection-start-line="536" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseInGroupsOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="60" column="64" lean-forward="false" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
           <folding />
         </state>
       </provider>
