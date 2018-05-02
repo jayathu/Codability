@@ -55,12 +55,6 @@ public class NearestNeighbors {
             @Override
             public int compare(Point o1, Point o2) {
                 return Integer.compare(Point.distance(p, o1), Point.distance(p, o2));
-//                int distance = Point.distance(p, o1) - Point.distance(p, o2);
-//                if(distance < 0)
-//                    return -1;
-//                else if(distance > 0)
-//                    return 1;
-//                else return 0;
             }
         });
 
