@@ -5,55 +5,35 @@ public class MergeSortLL {
     public void BuildAndRun()
     {
         LinkedList list = new LinkedList(new int[]{12,1,34,33,20,3,7});
-
         printList(mergeSort(list.head));
-
     }
 
     public LinkedListNode mergeSort(LinkedListNode head)
     {
-        if(head == null || head.next == null)
-        {
+        if(head == null || head.next == null) {
             return head;
-        }
-        else
-        {
-            splitNodes nodes = split(head);
-            nodes.first = mergeSort(nodes.first);
-            nodes.second = mergeSort(nodes.second);
-            return mergeLists(nodes.first, nodes.second);
+        } else {
+            LinkedListNode second = split(head);
+            LinkedListNode first  = mergeSort(head);
+            second = mergeSort(second);
+            return mergeLists(first, second);
         }
     }
 
-    class splitNodes
-    {
-        LinkedListNode first;
-        LinkedListNode second;
-
-        splitNodes(LinkedListNode f, LinkedListNode s)
-        {
-            first = f;
-            second = s;
-        }
-    }
-
-    public splitNodes split(LinkedListNode node)
+    public LinkedListNode split(LinkedListNode node)
     {
         LinkedListNode slow = node;
         LinkedListNode fast = node;
         LinkedListNode prev = null;
 
-        while(fast != null && fast.next != null)
-        {
+        while(fast != null && fast.next != null) {
             prev = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
-
         prev.next = null;
 
-        splitNodes nodes = new splitNodes(node, slow);
-        return nodes;
+        return slow;
     }
 
     private void printList(LinkedListNode head)
@@ -77,13 +57,11 @@ public class MergeSortLL {
         while(n1 != null && n2 != null)
         {
             LinkedListNode p;
-            if(n1.val < n2.val)
-            {
+            if(n1.val < n2.val) {
                 p = n1;
                 n1 = n1.next;
             }
-            else if(n1.val > n2.val)
-            {
+            else if(n1.val > n2.val) {
                 p = n2;
                 n2 = n2.next;
             }
@@ -92,9 +70,7 @@ public class MergeSortLL {
                 n1 = n1.next;
                 n2 = n2.next;
             }
-
-            if(head == null)
-            {
+            if(head == null) {
                 head = p;
                 n = p;
             }
@@ -102,9 +78,9 @@ public class MergeSortLL {
                 n.next = p;
                 n = n.next;
             }
-
         }
 
+        //check for any remaining nodes
         if(n1 == null)
         {
             while(n2 != null)
@@ -123,7 +99,6 @@ public class MergeSortLL {
                 n = n.next;
             }
         }
-
         return head;
     }
 }
