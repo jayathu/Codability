@@ -59,16 +59,30 @@ public class LinkedList {
         return head;
     }
 
+    public int length()
+    {
+        LinkedListNode node = head;
+        int len = 0;
+        while(node != null)
+        {
+            node = node.next;
+            len++;
+        }
+
+        return len;
+    }
+
     void Print()
     {
-        LinkedListNode start = head;
         System.out.println();
+        LinkedListNode start = head;
         while(start != null)
         {
-            System.out.print(start.val + "--->");
+            System.out.print(start.val + "->");
             start = start.next;
         }
         System.out.print("NULL");
+        System.out.println();
 
     }
 
