@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084eb5f7-772f-4eb4-a0e7-9b0402965bb3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/Pramp/TimePlanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,28 +28,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSortLL.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MergeSortLL.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="268">
+              <caret line="38" column="11" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="38" selection-end-column="11" />
+              <folding>
+                <element signature="method#printList#0;class#MergeSortLL#0" />
+                <element signature="method#mergeLists#0;class#MergeSortLL#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NearestNeighbors.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java">
+      <file leaf-file-name="TimePlanner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/TimePlanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-453">
-              <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
-              <folding>
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#2267#2268#0" expanded="true" />
-                <element signature="e#2344#2345#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -100,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/self/learning/Trees/LargestBST.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Trees/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Trees/SuccessorinBST.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Trees/FindKLargestinBST.java" />
@@ -149,15 +141,16 @@
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseInGroupsOfK.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Pramp/TimePlanner.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1729" />
-    <option name="y" value="-213" />
-    <option name="width" value="1373" />
+    <option name="x" value="1921" />
+    <option name="y" value="-245" />
+    <option name="width" value="1279" />
     <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -185,6 +178,13 @@
               <item name="Codability" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codability" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Pramp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +277,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1729" y="-213" width="1373" height="961" extended-state="0" />
+    <frame x="1921" y="-245" width="1279" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -293,7 +293,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15440641" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1657545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -347,13 +347,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MinInSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -690,17 +683,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/TimePlanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="114">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
-          <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
+        <state relative-caret-position="192">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
@@ -708,6 +701,17 @@
             <element signature="e#482#483#0" expanded="true" />
             <element signature="e#2267#2268#0" expanded="true" />
             <element signature="e#2344#2345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="method#printList#0;class#MergeSortLL#0" />
+            <element signature="method#mergeLists#0;class#MergeSortLL#0" />
           </folding>
         </state>
       </provider>

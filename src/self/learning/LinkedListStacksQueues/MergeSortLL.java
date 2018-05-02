@@ -4,37 +4,16 @@ public class MergeSortLL {
 
     public void BuildAndRun()
     {
-        LinkedList list = new LinkedList(new int[]{8,5,2,9,1,10});
-
-        //LinkedList list2 = new LinkedList(new int[]{4,7,10,15});
-
-        //LinkedListNode head = mergeLists(list.head, list2.head);
+        LinkedList list = new LinkedList(new int[]{12,1,34,33,20,3,7});
 
         printList(mergeSort(list.head));
 
-//        System.out.println("Before Sorting");
-//        list.Print();
-//        list.head = mergeSort(list.head);
-//
-//        System.out.println("After Sorting");
-//        list.Print();
     }
 
     public LinkedListNode mergeSort(LinkedListNode head)
     {
         if(head == null || head.next == null)
         {
-            return head;
-        }
-        else if(head.next.next == null)
-        {
-            if(head.next.val < head.val)
-            {
-                LinkedListNode temp = head;
-                head = head.next;
-                head.next = temp;
-                temp.next = null;
-            }
             return head;
         }
         else
@@ -130,16 +109,16 @@ public class MergeSortLL {
         {
             while(n2 != null)
             {
-                n = n2;
-                n = n.next;
+                n .next = n2;
                 n2 = n2.next;
+                n = n.next;
             }
         }
         if(n2 == null)
         {
             while(n1 != null)
             {
-                n = n1;
+                n.next = n1;
                 n1 = n1.next;
                 n = n.next;
             }
