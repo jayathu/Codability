@@ -541,8 +541,11 @@ public class Main {
         //AlternateNodeSplit split = new AlternateNodeSplit();
         //split.BuildAndRun();
 
-        AddLists addLists = new AddLists();
-        addLists.BuildAndRun();
+        //AddLists addLists = new AddLists();
+        //addLists.BuildAndRun();
+
+        MatchingParanthesis matchingParanthesis = new MatchingParanthesis();
+        matchingParanthesis.BuildAndRun();
     }
 
     static String sortCharacters(String inString) {

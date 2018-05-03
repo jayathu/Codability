@@ -29,8 +29,15 @@ public class SubsetProblem {
         {
             System.out.println(str);
         }
+
+        ArrayList<Integer> results = new ArrayList<>();
+
+        results.toArray(new Integer[results.size()]);
         //allSubsets = generate_recurse(s, 0, subsets_so_far, 0, allSubsets);
         return allSubsets.toArray(new String[allSubsets.size()]);
+
+
+
     }
 
     static ArrayList<String> generate_recurse(String s, int i, char[] subsets_so_far, int k, ArrayList<String> allSubsets)
