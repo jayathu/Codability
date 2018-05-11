@@ -17,7 +17,7 @@ public class CoinChange {
         {
             if(coins[i] <= amount) {
                 int temp = getMinimumChange(coins, amount - coins[i]);
-                //if(temp == Integer.MAX_VALUE) continue;
+                if(temp == Integer.MAX_VALUE) continue;
                 nCoins = Math.min(nCoins, 1 + temp);
             }
         }
@@ -62,22 +62,19 @@ public class CoinChange {
         return DP[amount];
     }
 
-    static void findCoinSetsRecurse(int amount, int minCoin, int[] DP, int[] coins, List<Integer> coinList)
+    static void findCoinSetsRecurse(int amount , int minCoin, int[] DP, int[] coins, List<Integer> coinList)
     {
-        if(minCoin == 0) {
-            for(Integer coin : coinList) {
-                System.out.print(coin + " ");
-            }
-            System.out.println();
-            coinList.clear();
+        if(amount == 0) {
+            System.out.println(coinList);
+            return;
         }
         for (int i = 0; i < coins.length; i++) {
-            if (amount - coins[i] >= 0) {
-                if (DP[amount - coins[i]] == minCoin - 1) {
+            if (amount - coins[i] >= 0 && DP[amount - coins[i]] == minCoin - 1) {
                     coinList.add(coins[i]);
                     findCoinSetsRecurse(amount - coins[i], minCoin - 1, DP, coins, coinList);
+                    coinList.remove(coinList.size()-1);
                 }
-            }
+
         }
     }
 }
