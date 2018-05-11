@@ -41,8 +41,6 @@ public class WordBreak {
                 if(dict.contains(s.substring(i,j)) && DP[i])
                 {
                     DP[j] = true;
-                    //System.out.println(i + "," + j + " : " + s.substring(i,j));
-                    //i = j-1;
                 }
                 if(dict.contains(s.substring(i,j)) && DPWORDS.containsKey(i))
                 {

@@ -2,6 +2,8 @@ package self.learning.Sorting;
 
 //Given an array of N-elements, find an element of rank K (Kth smallest element)
 
+import java.util.*;
+
 public class RankOfK {
 
     static int find(int[] arr, int k)

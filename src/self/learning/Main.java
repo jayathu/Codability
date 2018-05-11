@@ -1,10 +1,21 @@
 package self.learning;
 
+import self.learning.DynamicProgramming.CoinChange;
+import self.learning.DynamicProgramming.EditDistance;
+import self.learning.DynamicProgramming.WordBreak;
 import self.learning.LinkedListStacksQueues.*;
 import self.learning.Recursion.CountBST;
+import self.learning.Recursion.CountPaths;
+import self.learning.Recursion.NQueen;
 import self.learning.Sandbox.Dutch;
+import self.learning.Sandbox.NQueens;
 import self.learning.Sandbox.NutsAndBoltsSandbox;
+import self.learning.Sandbox.UniquePerms;
 import self.learning.Sorting.*;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
 
@@ -22,14 +33,18 @@ public class Main {
         //int[][] grid = new int[4][4];
         //System.out.print(CountPaths.NumberOfPaths(grid));
 
+        //CountPaths.buildAndRun();
+
         //int[] arr = {2,8,1,9,31,18,4,5,10};
 //        Solution solution = new Solution();
 //        solution.BuildAndRun();
 
        // System.out.println(RankOfK.find(arr, 3));
 
-        //String[][] results = NQueen.PlaceQueen(4);
-       // NQueen.PrintResults(results);
+        //NQueen.PlaceQueen(4);
+
+        //NQueens nQueens = new NQueens();
+        //nQueens.Place(4);
 
         //String str = "Never a foot too far, even.";
         //System.out.print(IsPalinfrome.checkPalindrome(str, 0, str.length()-1));
@@ -436,20 +451,30 @@ public class Main {
 
 //        Set<String> dict = new HashSet<>();
 //        dict.add("interview");
+//        dict.add("inter");
+//        dict.add("view");
 //        dict.add("kick");
 //        dict.add("kicks");
-//        dict.add("kstart");
-//
-//        //boolean tf = WordBreak.compute("applepie", 0, dict);
-//
+//        dict.add("start");
+//        dict.add("tart");
+////
+////        //boolean tf = WordBreak.compute("applepie", 0, dict);
+////
 //        boolean tf1 = WordBreak.DPCompute("interviewkickstart", dict);
 //        System.out.println(tf1);
 
         ////////////////// * * * D Y N A M I C * P R O G R A M M I N G * * * /////////////////////////
 
-//        int[] coins = new int[]{1,3,4,5};
-//        int nCoins = CoinChange.getMinimumChange_DP(coins, 7);
+        int[] coins = new int[]{2,3,4,7};
+        int nCoins = CoinChange.getMinimumChange_DP(coins, 12);
+        System.out.println("Min Coins DP: " + nCoins);
+//
+//        nCoins = CoinChange.minCoins2(30, coins);
 //        System.out.println(nCoins);
+
+//        EditDistance editDistance = new EditDistance();
+//        int minEdits = editDistance.findMinEdits("abc", "dab");
+//        System.out.print("Min Edits = " + minEdits);
 
         //int[] coins = new int[]{3,9,1,2};
         //System.out.println(CoinPlay.compute_DP(coins));
@@ -544,8 +569,11 @@ public class Main {
         //AddLists addLists = new AddLists();
         //addLists.BuildAndRun();
 
-        MatchingParanthesis matchingParanthesis = new MatchingParanthesis();
-        matchingParanthesis.BuildAndRun();
+        //MatchingParanthesis matchingParanthesis = new MatchingParanthesis();
+        //matchingParanthesis.BuildAndRun();
+
+
+
     }
 
     static String sortCharacters(String inString) {

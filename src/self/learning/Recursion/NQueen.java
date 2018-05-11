@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class NQueen {
 
-    static void PlaceQueen(int N)
+    public static void PlaceQueen(int N)
     {
         ArrayList<Integer[]> results = new ArrayList<>();
         Integer[] visitedCols = new Integer[N];
@@ -40,7 +40,7 @@ public class NQueen {
             for (String s: list
                     ) {
 
-                System.out.print(s);
+                System.out.println(s);
             }
             System.out.println();
 

@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084eb5f7-772f-4eb4-a0e7-9b0402965bb3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MatchingParanthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/Pramp/FindDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/KSmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/LongestConsecutiveNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/NextGreater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/PrettyPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/UniquePerms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedListStacksQueues/AddLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/LinkedListStacksQueues/AddLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/DynamicProgramming/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/DynamicProgramming/CoinChange.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/CountPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/CountPaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/NQueen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/NQueen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/SubsetProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/SubsetProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/RankOfK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/RankOfK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/self/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +39,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="547" column="42" selection-start-line="547" selection-start-column="42" selection-end-line="547" selection-end-column="42" />
+            <state relative-caret-position="201">
+              <caret line="467" column="38" selection-start-line="467" selection-start-column="38" selection-end-line="467" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,86 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java">
+      <file leaf-file-name="WordBreak.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+            <state relative-caret-position="199">
+              <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSortLL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java">
+      <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
-              <folding>
-                <element signature="method#printList#0;class#MergeSortLL#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlternateNodeSplit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/AlternateNodeSplit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/AddLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchingParanthesis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MatchingParanthesis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestValidParanthesis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LongestValidParanthesis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubsetProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindDuplicates.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/FindDuplicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimePlanner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/TimePlanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="251">
+              <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -127,7 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getMini</find>
       <find>printall</find>
       <find>cycle</find>
       <find>neighbors.keySet()</find>
@@ -151,6 +100,13 @@
       <find>enum</find>
       <find>PrintOptimal</find>
       <find>Extract</find>
+      <find>placeQ</find>
+      <find>countwa</find>
+      <find>countPa</find>
+      <find>getMin</find>
+      <find>wordb</find>
+      <find>DPCo</find>
+      <find>coin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,19 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/self/learning/Trees/BuildTree.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/LongestSubWithUnique.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/StringInterconversion.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/GenerateMnemonics.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/SuffixTree.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/BoggleSolver.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/BaseConversion.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/LookAndSay.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/ValidIPAddress.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/PalindromicWords.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SumZero.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MinInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SimpleEncoding.java" />
@@ -189,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/Heap.java" />
         <option value="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/Solution.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/DutchFlag.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/DutchFlagPartition.java" />
@@ -206,16 +148,31 @@
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/AlternateNodeSplit.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/AddLists.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MatchingParanthesis.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Pramp/FindDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/PrettyPrint.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/KSmallestElement.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/Subtract.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/NextGreater.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/UniquePerms.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/LongestConsecutiveNumbers.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/DynamicProgramming/EditDistance.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1465" />
+    <option name="x" value="236" />
+    <option name="y" value="27" />
+    <option name="width" value="1073" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -249,22 +206,7 @@
               <item name="Codability" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedListStacksQueues" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codability" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedListStacksQueues" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codability" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Pramp" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
@@ -278,15 +220,7 @@
               <item name="Codability" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codability" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="NearestNeighbors.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,28 +298,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1465" height="827" extended-state="0" />
+    <frame x="236" y="27" width="1073" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32694477" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32669324" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24701196" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3426295" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1447099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29822928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31606907" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,130 +363,27 @@
           </properties>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java</url>
+          <line>7</line>
+          <properties class="self.learning.Sandbox.NQueens" method="Place">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java</url>
+          <line>7</line>
+          <properties class="self.learning.Recursion.NQueen" method="PlaceQueen">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="84" />
+      <option name="time" value="91" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/AlternatingPositiveNegative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/RLE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/CountBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenAllParanthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/TreeDiameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/TOH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/WildCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/PalindromeDecomposition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/StackQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedListSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/Sum3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/TrappingRainWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MergeIntervals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/SortedMerge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -641,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32">
@@ -662,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/SortCharsInString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -680,13 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseKNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -743,13 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/AlternateNodeSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -764,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="547" column="42" selection-start-line="547" selection-start-column="42" selection-end-line="547" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MatchingParanthesis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -781,24 +574,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/FindDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LongestValidParanthesis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="296">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="-160">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/FindDuplicates.java">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenAllParanthesis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="450">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/CountBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/AlternatingPositiveNegative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/AlternateNodeSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseKNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/KSmallestElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CountWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/LongestConsecutiveNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/UniquePerms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/NextGreater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/Subtract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/PrettyPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/EditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="467" column="38" selection-start-line="467" selection-start-column="38" selection-end-line="467" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
         </state>
       </provider>
     </entry>
