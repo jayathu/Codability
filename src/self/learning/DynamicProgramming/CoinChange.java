@@ -47,71 +47,35 @@ public class CoinChange {
     {
         int[] DP = new int[amount + 1];
         DP[0] = 0;
-        int[] CoinsDP = new int[amount + 1];
-        CoinsDP[0] = -1;
-
         for(int change = 1; change <= amount; change++) {
             int nCoins = Integer.MAX_VALUE;
             for(int coin = 0; coin < coins.length; coin++) {
                 if(coins[coin] <= change) {
                     int temp = DP[change - coins[coin]];
                     if(temp == Integer.MAX_VALUE) continue;
-                    if(nCoins >= 1 + temp)
-                    {
-                        CoinsDP[change] = coin; //last coin picked
-                    }
                     nCoins = Math.min(nCoins, 1 + temp);
                 }
             }
             DP[change] = nCoins;
         }
-        List<Integer> chosenCoins = new ArrayList<>();
-        //printCoins(DP, CoinsDP, coins, amount, chosenCoins);
         findCoinSetsRecurse(amount, DP[amount], DP, coins, new ArrayList<>());
         return DP[amount];
     }
 
-    static void printCoins(int[] DP, int[] DPCoins, int[] coins, int amount, List<Integer> chosenCoins)
-    {
-        if(amount == 0) {
-            for(Integer coin : chosenCoins) {
-              System.out.print(coin + " ");
-            }
-            System.out.println();
-        }
-        else {
-           chosenCoins.add(coins[DPCoins[amount]]);
-
-           printCoins(DP, DPCoins, coins, amount - coins[DPCoins[amount]], chosenCoins);
-        }
-    }
-
-    static void findCoinSets(int amount, int minCoin, int[] DP, int[] coins, List<Integer> coinList)
-    {
-        for(int i = 0; i < coins.length; i++)
-        {
-            findCoinSetsRecurse(amount, minCoin, DP, coins, coinList);
-        }
-    }
-
     static void findCoinSetsRecurse(int amount, int minCoin, int[] DP, int[] coins, List<Integer> coinList)
     {
-        if(minCoin == 0)
-        {
-            for(Integer coin : coinList)
-            {
+        if(minCoin == 0) {
+            for(Integer coin : coinList) {
                 System.out.print(coin + " ");
             }
             System.out.println();
             coinList.clear();
         }
-        else {
-            for (int i = 0; i < coins.length; i++) {
-                if (amount - coins[i] >= 0) {
-                    if (DP[amount - coins[i]] == minCoin - 1) {
-                        coinList.add(coins[i]);
-                        findCoinSetsRecurse(amount - coins[i], minCoin - 1, DP, coins, coinList);
-                    }
+        for (int i = 0; i < coins.length; i++) {
+            if (amount - coins[i] >= 0) {
+                if (DP[amount - coins[i]] == minCoin - 1) {
+                    coinList.add(coins[i]);
+                    findCoinSetsRecurse(amount - coins[i], minCoin - 1, DP, coins, coinList);
                 }
             }
         }

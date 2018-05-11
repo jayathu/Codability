@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084eb5f7-772f-4eb4-a0e7-9b0402965bb3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/KSmallestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/LongestConsecutiveNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/NextGreater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/PrettyPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/Subtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/learning/Sandbox/UniquePerms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/DynamicProgramming/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/DynamicProgramming/CoinChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/CountPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/CountPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/NQueen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/NQueen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/SubsetProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/SubsetProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/RankOfK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/RankOfK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Sorting/Sorting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/RankOfK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Sorting/Sorting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +38,8 @@
       <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+            <state relative-caret-position="432">
+              <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -170,9 +148,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
+    <option name="x" value="41" />
     <option name="y" value="27" />
-    <option name="width" value="1073" />
+    <option name="width" value="1366" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -298,7 +276,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="27" width="1073" height="827" extended-state="0" />
+    <frame x="41" y="27" width="1366" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -309,12 +287,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3426295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18193892" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29822928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23426062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -758,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+        <state relative-caret-position="432">
+          <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
         </state>
       </provider>
     </entry>
