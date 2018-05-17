@@ -6,6 +6,7 @@ import self.learning.DynamicProgramming.PartitionSum;
 import self.learning.DynamicProgramming.WordBreak;
 import self.learning.LinkedListStacksQueues.*;
 import self.learning.MathProblems.RearrangeArray;
+import self.learning.MathProblems.SieveOfEratosthesis;
 import self.learning.RealInterviewQuestions.FindTippingPoint;
 import self.learning.Recursion.CountBST;
 import self.learning.Recursion.CountPaths;
@@ -583,6 +584,9 @@ public class Main {
 
         //FindTippingPoint tippingPoint = new FindTippingPoint();
         //tippingPoint.BuildAndRun();
+
+        SieveOfEratosthesis primes = new SieveOfEratosthesis();
+        primes.printAllPrimes(100);
 
     }
 

@@ -13,6 +13,11 @@ public class isPrime {
             if (A % i == 0) return 0;
         }
 
+        //An alternate way of looping
+//        for(int i = 2; i * i <= A; i++){
+//
+//        }
+
         return 1;
     }
 }
