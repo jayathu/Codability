@@ -12,7 +12,7 @@ public class MaxSumSubArray {
 
     public void BuildAndRun()
     {
-        int[] arr = {1, -3, 2, -5, 7, 6, -1, -4, 11, -23};
+        int[] arr = {1, 3, 2, -55, 7, 6, -1, -4, 11, 1};
         computeBruteForce(arr);
 
         computeBruteForceImproves(arr);
@@ -67,44 +67,33 @@ public class MaxSumSubArray {
         System.out.println("Max Sum = " + maxSum + " size = " + size);
     }
 
-    //O(n)
-    private void computeOptimized(int[] arr)
-    {
+    //O(n) - Kadane's algorithm
+    // Approach: maintain maxSum and currSum. Keep adding elements to currSum as long as the new sum is  positive.
+    //If Adding an element to the current sum makes it negative, reset it to zero.
+    //Update maxSum with the higher value of maxSum and currentSum.
+    //This alo assumes we have at least one positive integer in the array.
+    // So you need a separate check to handle case when all integers are negative.
+    private void computeOptimized(int[] arr) {
+
         int maxSum = Integer.MIN_VALUE;
-        int size = 0;
         int sum = 0;
-        int begIndex = -1;
+        int size = 0;
+        int startIndex = 0;
+
         for(int i = 0; i < arr.length; i++)
         {
-            //this condition happens only when array starts with negative integers
-            if(arr[i] < 0 && maxSum < arr[i])
+            sum += arr[i];
+            if(sum < 0)
             {
-                maxSum = arr[i];
-                size = 1;
-            }else {
-                sum += arr[i];
-                if (maxSum < sum) {
-                    begIndex = (begIndex == -1) ? i : begIndex;
-                    maxSum = sum;
-                    size = i - begIndex + 1;
-                }
+                sum = 0;
+                startIndex = i + 1;
             }
-        }
-
-        if(begIndex == -1) {
-            System.out.println("Max Sum = " + maxSum + " size = " + size);
-            return;
-        }
-        for(int i = begIndex; i < arr.length-1; i++)
-        {
-            sum -= arr[i];
-            if(maxSum < sum)
+            else if(maxSum < sum)
             {
                 maxSum = sum;
-                size -= i;
+                size = i - startIndex + 1;
             }
         }
-
         System.out.println("Max Sum = " + maxSum + " size = " + size);
     }
 
