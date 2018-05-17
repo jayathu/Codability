@@ -9,8 +9,7 @@ public class RearrangeArray {
         int n = A.length;
         for (int i = 0; i < n; i++)
         {
-            int val = ((A[A[i]] % A.length) * A.length);
-            A[i] = A[i] + val;
+            A[i] = A[i] + ((A[A[i]] % A.length) * A.length);
         }
         for (int i = 0; i < n; i++)
         {

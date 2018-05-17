@@ -1,5 +1,6 @@
 package self.learning;
 
+import self.learning.ArraysQuestions.Convert1D2D;
 import self.learning.DynamicProgramming.CoinChange;
 import self.learning.DynamicProgramming.EditDistance;
 import self.learning.DynamicProgramming.PartitionSum;
@@ -585,8 +586,11 @@ public class Main {
         //FindTippingPoint tippingPoint = new FindTippingPoint();
         //tippingPoint.BuildAndRun();
 
-        SieveOfEratosthesis primes = new SieveOfEratosthesis();
-        primes.printAllPrimes(100);
+        //SieveOfEratosthesis primes = new SieveOfEratosthesis();
+        //primes.printAllPrimes(100);
+
+        Convert1D2D convert1D2D = new Convert1D2D();
+        convert1D2D.BuildAndRun();
 
     }
 
