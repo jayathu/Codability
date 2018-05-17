@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084eb5f7-772f-4eb4-a0e7-9b0402965bb3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Convert1D2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/MathProblems/RearrangeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/MathProblems/RearrangeArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/MathProblems/SieveOfEratosthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/MathProblems/SieveOfEratosthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/MathProblems/isPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/MathProblems/isPrime.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/self/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/MathProblems/RearrangeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/MathProblems/RearrangeArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +20,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="592" column="34" lean-forward="true" selection-start-line="592" selection-start-column="34" selection-end-line="592" selection-end-column="34" />
+            <state relative-caret-position="436">
+              <caret line="597" lean-forward="true" selection-start-line="597" selection-end-line="597" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,50 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/SearchArray.java">
+      <file leaf-file-name="MaxSumSubArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RearrangeArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/MathProblems/RearrangeArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Convert1D2D.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/Convert1D2D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SieveOfEratosthesis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/MathProblems/SieveOfEratosthesis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="isPrime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/MathProblems/isPrime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="274">
+              <caret line="85" column="35" lean-forward="true" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -130,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/Heap.java" />
         <option value="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/Solution.java" />
@@ -179,8 +135,9 @@
         <option value="$PROJECT_DIR$/src/self/learning/MathProblems/SieveOfEratosthesis.java" />
         <option value="$PROJECT_DIR$/src/self/learning/MathProblems/isPrime.java" />
         <option value="$PROJECT_DIR$/src/self/learning/MathProblems/RearrangeArray.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Convert1D2D.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java" />
       </list>
     </option>
   </component>
@@ -317,7 +274,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31134564" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25593668" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -327,7 +284,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31530344" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31530344" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,17 +343,10 @@
           <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="101" />
+      <option name="time" value="103" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/CloneList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -750,20 +700,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/Convert1D2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="592" column="34" lean-forward="true" selection-start-line="592" selection-start-column="34" selection-end-line="592" selection-end-column="34" />
+        <state relative-caret-position="436">
+          <caret line="597" lean-forward="true" selection-start-line="597" selection-end-line="597" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/Convert1D2D.java">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="274">
+          <caret line="85" column="35" lean-forward="true" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
         </state>
       </provider>
     </entry>

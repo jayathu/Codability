@@ -1,6 +1,7 @@
 package self.learning;
 
 import self.learning.ArraysQuestions.Convert1D2D;
+import self.learning.ArraysQuestions.MaxSumSubArray;
 import self.learning.DynamicProgramming.CoinChange;
 import self.learning.DynamicProgramming.EditDistance;
 import self.learning.DynamicProgramming.PartitionSum;
@@ -589,8 +590,11 @@ public class Main {
         //SieveOfEratosthesis primes = new SieveOfEratosthesis();
         //primes.printAllPrimes(100);
 
-        Convert1D2D convert1D2D = new Convert1D2D();
-        convert1D2D.BuildAndRun();
+        //Convert1D2D convert1D2D = new Convert1D2D();
+        //convert1D2D.BuildAndRun();
+
+        MaxSumSubArray maxSumSubArray = new MaxSumSubArray();
+        maxSumSubArray.BuildAndRun();
 
     }
 
