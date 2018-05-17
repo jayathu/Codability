@@ -42,6 +42,8 @@ public class GenExpressions {
 
                 if(position == 0)
                 {
+                    //there's nothing to add, so
+                    //expressionSoFar is noToAddAsString
                     generate_recurse(allExpressions, input, noToAddAsString, target, valueToAdd, valueToAdd, i + 1);
                 }
                 else

@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084eb5f7-772f-4eb4-a0e7-9b0402965bb3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/ArrayProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SearchArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/PartitionSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/MathProblems/RearrangeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/MathProblems/isPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/FindTippingPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/StringsProblems/StringsIntervleave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/ArraysQuestions/Products.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/ArraysQuestions/Products.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/DynamicProgramming/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/DynamicProgramming/CoinChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/GenExpressions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/GenExpressions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/SubsetProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Recursion/SubsetProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +34,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="467" column="38" selection-start-line="467" selection-start-column="38" selection-end-line="467" selection-end-column="38" />
+            <state relative-caret-position="286">
+              <caret line="584" column="37" selection-start-line="584" selection-start-column="37" selection-end-line="584" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,20 +43,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordBreak.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java">
+      <file leaf-file-name="SearchArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/SearchArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+            <state relative-caret-position="-191">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java">
+      <file leaf-file-name="ArrayProducts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/ArrayProducts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="240">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchCount.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -95,18 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SumZero.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MinInSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SimpleEncoding.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/RLE.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/NextPalindrome2.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/AlternatingPositiveNegative.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Recursion/PalindromeDecomposition.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedListSolution.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Sorting/SortedMerge.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/TrappingRainWater.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MergeIntervals.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java" />
         <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/GroupNumbers.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java" />
@@ -129,7 +141,6 @@
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/AddLists.java" />
         <option value="$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MatchingParanthesis.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Pramp/FindDuplicates.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java" />
@@ -144,16 +155,29 @@
         <option value="$PROJECT_DIR$/src/self/learning/Recursion/CountPaths.java" />
         <option value="$PROJECT_DIR$/src/self/learning/DynamicProgramming/EditDistance.java" />
         <option value="$PROJECT_DIR$/src/self/learning/DynamicProgramming/WordBreak.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
         <option value="$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/StringsProblems/StringsIntervleave.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/DynamicProgramming/PartitionSum.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/MathProblems/isPrime.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/MathProblems/RearrangeArray.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/FindTippingPoint.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Products.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Search2DArray.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/ArrayProducts.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Sandbox/Geetika.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/SearchArray.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="27" />
-    <option name="width" value="1366" />
-    <option name="height" value="827" />
+    <option name="x" value="573" />
+    <option name="y" value="22" />
+    <option name="width" value="834" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,14 +210,7 @@
               <item name="Codability" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codability" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="ArraysQuestions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
@@ -278,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="27" width="1366" height="827" extended-state="0" />
+    <frame x="573" y="22" width="834" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -289,12 +306,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18193892" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18073879" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23426062" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2853717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -327,6 +344,12 @@
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/PartitionSum.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/self/learning/Trees/FindKLargestinBST.java</url>
           <line>19</line>
@@ -344,14 +367,6 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java</url>
-          <line>7</line>
-          <properties class="self.learning.Sandbox.NQueens" method="Place">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java</url>
           <line>7</line>
           <properties class="self.learning.Recursion.NQueen" method="PlaceQueen">
@@ -360,126 +375,10 @@
           <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="92" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/IsPalinfrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/GroupNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/FindIntersection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/DutchFlag.java" />
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/DutchFlagPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/Dutch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/NutsAndBoltsSandbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/MergeKSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NutsAndBolts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/ExtractInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SwapKthNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/SortCharsInString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/SlidingWindowMaximum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/ReverseInGroupsOfK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -498,13 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/TimePlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -568,13 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenAllParanthesis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -593,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -634,31 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/KSmallestElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CountWays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -726,20 +583,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Graphs/KnightsTour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="467" column="38" selection-start-line="467" selection-start-column="38" selection-end-line="467" selection-end-column="38" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/KnightsTour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CountWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/HouseRobbery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/StringsProblems/StringsIntervleave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/PartitionSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/GenExpressions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/NQueen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-295">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/MathProblems.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Recursion/SubsetProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/MathProblems/isPrime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/DynamicProgramming/CoinChange.java">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Pramp/TimePlanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="243">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/MathProblems/RearrangeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/FindTippingPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/Dutch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/Search2DArray.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/ArrayProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Sandbox/Geetika.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/SearchArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="584" column="37" selection-start-line="584" selection-start-column="37" selection-end-line="584" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/BinarySearchCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
         </state>
       </provider>
     </entry>

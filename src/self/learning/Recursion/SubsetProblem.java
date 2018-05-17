@@ -83,6 +83,8 @@ public class SubsetProblem {
             PrintSubsets(input, i + 1, output, k);
             output[k] = input[i];
             PrintSubsets(input, i + 1, output, k + 1);
+            StringBuilder sb = new StringBuilder();
+
         }
     }
 }

@@ -2,16 +2,17 @@ package self.learning;
 
 import self.learning.DynamicProgramming.CoinChange;
 import self.learning.DynamicProgramming.EditDistance;
+import self.learning.DynamicProgramming.PartitionSum;
 import self.learning.DynamicProgramming.WordBreak;
 import self.learning.LinkedListStacksQueues.*;
+import self.learning.MathProblems.RearrangeArray;
+import self.learning.RealInterviewQuestions.FindTippingPoint;
 import self.learning.Recursion.CountBST;
 import self.learning.Recursion.CountPaths;
 import self.learning.Recursion.NQueen;
-import self.learning.Sandbox.Dutch;
-import self.learning.Sandbox.NQueens;
-import self.learning.Sandbox.NutsAndBoltsSandbox;
-import self.learning.Sandbox.UniquePerms;
+import self.learning.Sandbox.*;
 import self.learning.Sorting.*;
+import self.learning.StringsProblems.StringsIntervleave;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -465,9 +466,9 @@ public class Main {
 
         ////////////////// * * * D Y N A M I C * P R O G R A M M I N G * * * /////////////////////////
 
-        int[] coins = new int[]{2,3,4,7};
-        int nCoins = CoinChange.getMinimumChange_DP(coins, 12);
-        System.out.println("Min Coins DP: " + nCoins);
+//        int[] coins = new int[]{2,3,4,7};
+//        int nCoins = CoinChange.getMinimumChange_DP(coins, 12);
+//        System.out.println("Min Coins DP: " + nCoins);
 //
 //        nCoins = CoinChange.minCoins2(30, coins);
 //        System.out.println(nCoins);
@@ -572,7 +573,16 @@ public class Main {
         //MatchingParanthesis matchingParanthesis = new MatchingParanthesis();
         //matchingParanthesis.BuildAndRun();
 
+        //boolean tf = StringsIntervleave.find_if_strings_interleave("abc", "def", "adbcef");
+        //System.out.print(tf);
 
+        //PartitionSum.BuildAndRun();
+
+        //RearrangeArray array = new RearrangeArray();
+        //array.arrange(new int[]{4,2,0,1,3});
+
+        //FindTippingPoint tippingPoint = new FindTippingPoint();
+        //tippingPoint.BuildAndRun();
 
     }
 
