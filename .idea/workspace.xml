@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084eb5f7-772f-4eb4-a0e7-9b0402965bb3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/ColumnarLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codability/self/learning/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/learning/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +20,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="597" lean-forward="true" selection-start-line="597" selection-end-line="597" />
+            <state relative-caret-position="466">
+              <caret line="600" column="37" selection-start-line="600" selection-start-column="37" selection-end-line="600" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,11 +29,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxSumSubArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxSumSubArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphAdjList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColumnarLayout.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/ColumnarLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-512">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -84,9 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/self/learning/Sorting/Heap.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/AmazonQuestion1.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Sorting/Solution.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/DutchFlag.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sorting/DutchFlagPartition.java" />
         <option value="$PROJECT_DIR$/src/self/learning/Sandbox/DutchFlagPartitioning.java" />
@@ -133,8 +151,11 @@
         <option value="$PROJECT_DIR$/src/self/learning/MathProblems/isPrime.java" />
         <option value="$PROJECT_DIR$/src/self/learning/MathProblems/RearrangeArray.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/Convert1D2D.java" />
-        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
         <option value="$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/ColumnarViews.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/Main.java" />
+        <option value="$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/ColumnarLayout.java" />
       </list>
     </option>
   </component>
@@ -175,14 +196,7 @@
               <item name="Codability" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ArraysQuestions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codability" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="MathProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="RealInterviewQuestions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +212,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -340,35 +354,10 @@
           <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="104" />
+      <option name="time" value="105" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/self/learning/Sorting/NearestNeighbors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#2267#2268#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/MergeSortLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
-          <folding>
-            <element signature="method#printList#0;class#MergeSortLL#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/LinkedListStacksQueues/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -704,20 +693,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/self/learning/Graphs/GraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/learning/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="597" lean-forward="true" selection-start-line="597" selection-end-line="597" />
+        <state relative-caret-position="466">
+          <caret line="600" column="37" selection-start-line="600" selection-start-column="37" selection-end-line="600" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/self/learning/ArraysQuestions/MaxSumSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/self/learning/RealInterviewQuestions/ColumnarLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="-512">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

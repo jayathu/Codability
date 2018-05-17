@@ -9,6 +9,7 @@ import self.learning.DynamicProgramming.WordBreak;
 import self.learning.LinkedListStacksQueues.*;
 import self.learning.MathProblems.RearrangeArray;
 import self.learning.MathProblems.SieveOfEratosthesis;
+import self.learning.RealInterviewQuestions.ColumnarLayout;
 import self.learning.RealInterviewQuestions.FindTippingPoint;
 import self.learning.Recursion.CountBST;
 import self.learning.Recursion.CountPaths;
@@ -593,8 +594,11 @@ public class Main {
         //Convert1D2D convert1D2D = new Convert1D2D();
         //convert1D2D.BuildAndRun();
 
-        MaxSumSubArray maxSumSubArray = new MaxSumSubArray();
-        maxSumSubArray.BuildAndRun();
+        //MaxSumSubArray maxSumSubArray = new MaxSumSubArray();
+        //maxSumSubArray.BuildAndRun();
+
+        ColumnarLayout columnarLayout = new ColumnarLayout();
+        columnarLayout.BuildAndRun();
 
     }
 
