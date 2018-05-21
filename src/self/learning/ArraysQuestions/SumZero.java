@@ -40,5 +40,7 @@ public class SumZero
         {
             System.out.print(arr[i] + " ");
         }
+
+        List<Integer> list = new ArrayList<>();
     }
 }

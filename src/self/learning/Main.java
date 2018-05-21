@@ -2,10 +2,12 @@ package self.learning;
 
 import self.learning.ArraysQuestions.Convert1D2D;
 import self.learning.ArraysQuestions.MaxSumSubArray;
+import self.learning.ArraysQuestions.SearchArray;
 import self.learning.DynamicProgramming.CoinChange;
 import self.learning.DynamicProgramming.EditDistance;
 import self.learning.DynamicProgramming.PartitionSum;
 import self.learning.DynamicProgramming.WordBreak;
+import self.learning.Graphs.GraphSolution;
 import self.learning.LinkedListStacksQueues.*;
 import self.learning.MathProblems.RearrangeArray;
 import self.learning.MathProblems.SieveOfEratosthesis;
@@ -16,6 +18,7 @@ import self.learning.Recursion.CountPaths;
 import self.learning.Recursion.NQueen;
 import self.learning.Sandbox.*;
 import self.learning.Sorting.*;
+import self.learning.StringsProblems.LongestSubWithUnique;
 import self.learning.StringsProblems.StringsIntervleave;
 
 import java.util.ArrayList;
@@ -40,9 +43,8 @@ public class Main {
 
         //CountPaths.buildAndRun();
 
-        //int[] arr = {2,8,1,9,31,18,4,5,10};
-//        Solution solution = new Solution();
-//        solution.BuildAndRun();
+        Solution solution = new Solution();
+        solution.BuildAndRun();
 
        // System.out.println(RankOfK.find(arr, 3));
 
@@ -363,8 +365,10 @@ public class Main {
 //        }
         ////////////////////////// T-R-I-E ///////////////////////////////
 
-//        String res = LongestSubWithUnique.longestSub_improved("aaaaaaaabbbbbbb");
-//        System.out.println(res);
+        //String res = LongestSubWithUnique.longestSub_improved("aaaaaaaabbbbbbb");
+        //System.out.println(res);
+        //LongestSubWithUnique.longestSub_improved("aabcccbddb");
+        //LongestSubWithUnique.longestSub2("aabcccbddb");
 
 //        List<String> results = PalindromicWords.Find(new String[]{"abacdc", "aba", "cdc"});
 //        for(String s: results)
@@ -594,11 +598,16 @@ public class Main {
         //Convert1D2D convert1D2D = new Convert1D2D();
         //convert1D2D.BuildAndRun();
 
-        //MaxSumSubArray maxSumSubArray = new MaxSumSubArray();
-        //maxSumSubArray.BuildAndRun();
+//        MaxSumSubArray maxSumSubArray = new MaxSumSubArray();
+//        maxSumSubArray.BuildAndRun();
 
-        ColumnarLayout columnarLayout = new ColumnarLayout();
-        columnarLayout.BuildAndRun();
+        //ColumnarLayout columnarLayout = new ColumnarLayout();
+        //columnarLayout.BuildAndRun();
+
+//        SearchArray searchArray = new SearchArray();
+//        int[][] arr = { {1,5,10}, {6,8,12},{7,9,13}};
+//        boolean tf = searchArray.twoDArraySearch(arr, 0,2,7);
+//        System.out.print(tf);
 
     }
 

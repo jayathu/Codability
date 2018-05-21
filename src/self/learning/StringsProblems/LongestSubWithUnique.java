@@ -1,9 +1,51 @@
 package self.learning.StringsProblems;
 
+import javax.print.attribute.HashAttributeSet;
 import java.util.HashMap;
 
 public class LongestSubWithUnique {
 
+    public static String longestSub2(String str)
+    {
+        char[] arr = str.toCharArray();
+        int left = 0;
+        int right = 0;
+        HashMap<Character, Integer> map = new HashMap<>();
+        String res = "";
+
+        while(right < arr.length)
+        {
+            while(right < arr.length && map.size() <= 2)
+            {
+                Integer count = map.get(arr[right]);
+                if(count == null)
+                {
+                    count = 0;
+                }
+                map.put(arr[right], count + 1);
+                right++;
+            }
+
+            String newStr = (right == arr.length) ? str.substring(left, right) : str.substring(left, right - 1 );
+            res = res.length() < newStr.length() ? newStr : res;
+            while(left < right && map.size() > 2)
+            {
+                Integer count = map.get(arr[left]);
+                if(count == 1)
+                {
+                    map.remove(arr[left]);
+                }
+                else
+                {
+                    map.put(arr[left], count - 1);
+                }
+                left++;
+            }
+        }
+        System.out.println(res);
+        return res;
+
+    }
     //This code is much simpler because I add the character to the hashmap regardless
     //THEN I check if the size > 2, and if so, keep removing elements at the left index until size == 2
 
@@ -51,6 +93,8 @@ public class LongestSubWithUnique {
         if(flag) {
             res = longest(res, strText.substring(left, right));
         }
+
+        System.out.println(res);
 
         return res;
 

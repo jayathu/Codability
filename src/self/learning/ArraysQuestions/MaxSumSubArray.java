@@ -13,9 +13,9 @@ public class MaxSumSubArray {
     public void BuildAndRun()
     {
         int[] arr = {1, 3, 2, -55, 7, 6, -1, -4, 11, 1};
-        computeBruteForce(arr);
+        //computeBruteForce(arr);
 
-        computeBruteForceImproves(arr);
+        //computeBruteForceImproves(arr);
 
         computeOptimized(arr);
     }
@@ -95,6 +95,16 @@ public class MaxSumSubArray {
             }
         }
         System.out.println("Max Sum = " + maxSum + " size = " + size);
+        print(arr, startIndex, startIndex + size - 1);
+    }
+
+    private void print(int[] arr, int beg, int end)
+    {
+        System.out.println();
+        for(int i = beg; i <= end; i++)
+        {
+            System.out.print(arr[i] + " ");
+        }
     }
 
 }

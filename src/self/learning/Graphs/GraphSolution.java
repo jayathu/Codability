@@ -70,7 +70,7 @@ public class GraphSolution {
                 {0, 1, 0, 0, 0, 0}
         };
 
-        IslandProblem.CountIslands(grid);
+        //IslandProblem.CountIslands(grid);
 
 //        int val = KnightsTour.find_minimum_number_of_moves(2,2,1,1, 1, 1);
 //        System.out.println("Number of jumps: " + val);
@@ -87,20 +87,19 @@ public class GraphSolution {
 
         //SnakesAndLadder.BuildGameBoard();
 
-        NearestGuard.BuildNearestGuard();
+        //NearestGuard.BuildNearestGuard();
 
         //LongestPathDAG.BuildDAG();
 
-        //GraphAdjList G1 = new GraphAdjList(new int[]{1,2,3,4,5});
+        GraphAdjList G1 = new GraphAdjList(new int[]{1,2,3,4});
 
-//        G1.addEdge(1,3,1);
-//        G1.addEdge(3,4,1);
-//        G1.addEdge(1,2,1);
-//        G1.addEdge(4,2,1);
-//        G1.addEdge(2,5,1);
-//        G1.addEdge(4,5,1);
+        G1.addEdge(1,2,1);
+        G1.addEdge(4,2,1);
+        G1.addEdge(3,4,1);
+        G1.addEdge(1,3,1);
+        //G1.addEdge(2,3,1);
 
-        //System.out.println("Cycle Exists = " + G1.cycleExists(1));
+        System.out.println("Cycle Exists = " + G1.cycleExists(1));
 
         //G1.cloneGraphMain(1);
         //G1.dfs(1);

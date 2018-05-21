@@ -7,7 +7,7 @@ public class WordLadder {
 
     static String[] string_transformation(String[] words, String start, String stop) {
 
-        Queue<Integer> queue = new ArrayDeque();
+        Queue<Integer> queue = new ArrayDeque<>();
         HashMap<Integer, Integer> backRefs = new HashMap<>();
         boolean[] visited = new boolean[words.length + 1];
 
@@ -73,7 +73,7 @@ public class WordLadder {
 
     }
 
-    static void addNeighbors(String word, int wordIndex, HashMap<Integer, String> wordMap,  HashMap<Integer, Integer> backRefs, boolean[] visited, Queue<Integer> queue)
+    private static void addNeighbors(String word, int wordIndex, HashMap<Integer, String> wordMap,  HashMap<Integer, Integer> backRefs, boolean[] visited, Queue<Integer> queue)
     {
         for(int i = 0; i < wordMap.size(); i++)
         {

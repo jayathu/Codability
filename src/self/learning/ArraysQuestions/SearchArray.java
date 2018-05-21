@@ -49,11 +49,13 @@ public class SearchArray {
 
         if( midVal < num && num <=  a[mid][col-1] ) {
             // do search in the row
-            return binarySearch(a[mid], 0, col-1, num);
+            if(binarySearch(a[mid], 0, col-1, num))
+                return true;
         }
         if (midVal < num ) {
             // move down the row by doing binary search on
-            return twoDArraySearch(a, mid+1, end, num );
+            if(twoDArraySearch(a, mid+1, end, num ))
+                return true;
         }
         if( midVal > num) {
             // move up the row
