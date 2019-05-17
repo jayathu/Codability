@@ -2,7 +2,7 @@ package self.learning.StringsProblems;
 
 public class IsPalinfrome {
 
-    static boolean checkPalindrome(String s, int left, int right)
+    public static boolean checkPalindrome(String s, int left, int right)
     {
 
         while(isAPunctuation(s.charAt(left))) {
@@ -17,6 +17,23 @@ public class IsPalinfrome {
             return  checkPalindrome(s, left + 1, right -1);
         }else return false;
 
+    }
+
+    public static boolean checkPalidromeIterative(String s)
+    {
+        int len = s. length();
+        int left = 0, right = len - 1;
+        while(left < right)
+        {
+            if(s.charAt(left) == s.charAt(right))
+            {
+                left++;
+                right--;
+            }
+            else
+                return false;
+        }
+        return true;
     }
 
     static boolean isAPunctuation(char c)

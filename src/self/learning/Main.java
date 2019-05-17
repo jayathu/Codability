@@ -1,5 +1,6 @@
 package self.learning;
 
+import self.learning.ArraysQuestions.BigIntegerMultiply;
 import self.learning.ArraysQuestions.Convert1D2D;
 import self.learning.ArraysQuestions.MaxSumSubArray;
 import self.learning.ArraysQuestions.SearchArray;
@@ -18,9 +19,9 @@ import self.learning.Recursion.CountPaths;
 import self.learning.Recursion.NQueen;
 import self.learning.Sandbox.*;
 import self.learning.Sorting.*;
-import self.learning.StringsProblems.LongestSubWithUnique;
-import self.learning.StringsProblems.StringsIntervleave;
+import self.learning.StringsProblems.*;
 
+import javax.xml.transform.SourceLocator;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
@@ -43,8 +44,8 @@ public class Main {
 
         //CountPaths.buildAndRun();
 
-        Solution solution = new Solution();
-        solution.BuildAndRun();
+        //Solution solution = new Solution();
+        //solution.BuildAndRun();
 
        // System.out.println(RankOfK.find(arr, 3));
 
@@ -53,9 +54,13 @@ public class Main {
         //NQueens nQueens = new NQueens();
         //nQueens.Place(4);
 
-        //String str = "Never a foot too far, even.";
-        //System.out.print(IsPalinfrome.checkPalindrome(str, 0, str.length()-1));
-
+//        String str = "Never a foot too far, even.";
+//        str = "abba aba bab";
+//        System.out.print(IsPalinfrome.checkPalindrome(str, 0, str.length()-1));
+//
+//        str = "I did , did I";
+//        //str = "abba aba abba";
+//        System.out.print(IsPalinfrome.checkPalidromeIterative(str));
 
         //NQueen.PlaceQueen(4);
 
@@ -292,10 +297,12 @@ public class Main {
 //        p = UpsideDownTree.flip2(p);
 //        p.print();
 
-        //StringSolution solution = new StringSolution();
-        //solution.reverse("jayashree");
-
-        //solution.reverseWords("this is awesome".toCharArray());
+//        StringSolution solution = new StringSolution();
+//        System.out.println();
+//        String s = "Bob likes Alice likes Me";
+//
+//
+//        solution.reverseWords(s);
         //solution.reverseWords("this is awesome");
 
         //solution.Execute("SHREE");
@@ -608,6 +615,11 @@ public class Main {
 //        int[][] arr = { {1,5,10}, {6,8,12},{7,9,13}};
 //        boolean tf = searchArray.twoDArraySearch(arr, 0,2,7);
 //        System.out.print(tf);
+
+        int[] arr1 = new int[]{3,4,6,8,9,1,2};
+        int[] arr2 = new int[]{9,9,2};
+
+        int[] result = BigIntegerMultiply.multiply(arr1, arr2);
 
     }
 

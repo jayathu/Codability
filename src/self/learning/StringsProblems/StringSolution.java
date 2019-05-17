@@ -13,13 +13,12 @@ public class StringSolution {
     {
         String reversedString = reverseRecurs(s.toCharArray(), 0, s.length() - 1);
         System.out.println(reversedString);
-
     }
 
    public void reverseWords(String s)
    {
        char[] arr = s.toCharArray();
-       reverseRecurs(arr, 0, arr.length - 1);
+       reverseIter(arr, 0, arr.length - 1);
        int i = 0, j = 0;
        while(j < arr.length )
        {
@@ -28,14 +27,13 @@ public class StringSolution {
                j++;
            }
            else{
-               reverseRecurs(arr, i, j - 1);
+               reverseIter(arr, i, j - 1);
                j++;
                i = j;
            }
        }
-
-       reverseRecurs(arr, i, j - 1);
-       System.out.println(arr);
+       s = String.valueOf(arr);
+       System.out.println("\n" + s);
    }
 
     String reverse(char[] arr)
@@ -89,6 +87,22 @@ public class StringSolution {
         beg++;
         end--;
         return reverseRecurs(arr, beg, end);
+    }
+
+    public String reverseIter(char[] arr, int beg, int end)
+    {
+        while(beg < end)
+        {
+            char c = arr[beg];
+            arr[beg] = arr[end];
+            arr[end] = c;
+            beg++;
+            end--;
+        }
+
+
+        return String.valueOf(arr);
+
     }
 
     public static String move_letters_to_left_side_with_minimizing_memory_writes(String s) {
