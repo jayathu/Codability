@@ -1,9 +1,6 @@
 package self.learning;
 
-import self.learning.ArraysQuestions.BigIntegerMultiply;
-import self.learning.ArraysQuestions.Convert1D2D;
-import self.learning.ArraysQuestions.MaxSumSubArray;
-import self.learning.ArraysQuestions.SearchArray;
+import self.learning.ArraysQuestions.*;
 import self.learning.DynamicProgramming.CoinChange;
 import self.learning.DynamicProgramming.EditDistance;
 import self.learning.DynamicProgramming.PartitionSum;
@@ -12,6 +9,9 @@ import self.learning.Graphs.GraphSolution;
 import self.learning.LinkedListStacksQueues.*;
 import self.learning.MathProblems.RearrangeArray;
 import self.learning.MathProblems.SieveOfEratosthesis;
+import self.learning.Pattern_SlidingWindow.AverageOfSubarrays;
+import self.learning.Pattern_SlidingWindow.LongestSubstringWithDistinctChar;
+import self.learning.Pattern_SlidingWindow.StringPermutation;
 import self.learning.RealInterviewQuestions.ColumnarLayout;
 import self.learning.RealInterviewQuestions.FindTippingPoint;
 import self.learning.Recursion.CountBST;
@@ -616,10 +616,19 @@ public class Main {
 //        boolean tf = searchArray.twoDArraySearch(arr, 0,2,7);
 //        System.out.print(tf);
 
-        int[] arr1 = new int[]{3,4,6,8,9,1,2};
-        int[] arr2 = new int[]{9,9,2};
+//        int[] arr1 = new int[]{3,4,6,8,9,1,2};
+//        int[] arr2 = new int[]{9,9,2};
+//
+//        int[] result = BigIntegerMultiply.multiply(arr1, arr2);
 
-        int[] result = BigIntegerMultiply.multiply(arr1, arr2);
+//        int[][] a = { {1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16} };
+//        Rotate2DMatrix.rotateImage(a);
+
+        //AverageOfSubarrays.findMyAverages(5, new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 });
+        //int len = LongestSubstringWithDistinctChar.findLength("araacia", 1);
+        //System.out.print("Length = " + len);
+
+        System.out.println(StringPermutation.findPermutation("bcdxabcdy", "bcdyabcdx"));
 
     }
 

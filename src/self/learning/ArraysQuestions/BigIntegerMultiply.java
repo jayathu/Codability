@@ -1,5 +1,7 @@
 package self.learning.ArraysQuestions;
 
+import java.util.HashSet;
+
 public class BigIntegerMultiply {
 
     public static int[] multiply(int[] arr1, int[] arr2)
